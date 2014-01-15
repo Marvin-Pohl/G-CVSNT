@@ -14,5 +14,7 @@ CVS
 log1
 log2
 *.user
-*/Debug/*
-*/debug/*
+**/Debug/**
+**/debug/**
+**/tmp/
+**/DebugWin32/

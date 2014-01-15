@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="$(INCLUDE);..;..\include"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;$(INCLUDE);..;..\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -107,7 +107,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="$(INCLUDE);..;..\include"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;$(INCLUDE);..;..\include"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;LIBXML_STATIC;_WINDOWS;_MBCS"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"

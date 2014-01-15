@@ -48,7 +48,7 @@
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="true"
-				AdditionalIncludeDirectories=".\windows-NT,.\src,.\lib,.\diff,.\zlib,.\cvsgui;.\expat\lib;.\xmlapi;.\cvsapi\lib;.\cvsapi;.\cvstools;.\libxml\include"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;.\windows-NT,.\src,.\lib,.\diff,.\zlib,.\cvsgui;.\expat\lib;.\xmlapi;.\cvsapi\lib;.\cvsapi;.\cvstools;.\libxml\include"
 				PreprocessorDefinitions="ISOLATION_AWARE_ENABLED,NDEBUG,_CONSOLE,WIN32,HAVE_CONFIG_H,POSIX,CVSGUI_PIPE"
 				StringPooling="true"
 				RuntimeLibrary="2"
@@ -146,7 +146,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				OmitFramePointers="false"
-				AdditionalIncludeDirectories=".\windows-NT,.\src,.\lib,.\diff,.\zlib,.\cvsgui;.\expat\lib;.\xmlapi;.\cvsapi\lib;.\cvsapi;.\cvstools;.\libxml\include"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;.\windows-NT,.\src,.\lib,.\diff,.\zlib,.\cvsgui;.\expat\lib;.\xmlapi;.\cvsapi\lib;.\cvsapi;.\cvstools;.\libxml\include"
 				PreprocessorDefinitions="_DEBUG,_CONSOLE,WIN32,HAVE_CONFIG_H,CVSGUI_PIPE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -1147,7 +1147,7 @@
 					>
 					<Tool
 						Name="VCResourceCompilerTool"
-						AdditionalIncludeDirectories="windows-NT;$(NoInherit)"
+						AdditionalIncludeDirectories="$(SolutionDir)external_libs\;windows-NT;$(NoInherit)"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -1155,7 +1155,7 @@
 					>
 					<Tool
 						Name="VCResourceCompilerTool"
-						AdditionalIncludeDirectories="windows-NT;$(NoInherit)"
+						AdditionalIncludeDirectories="$(SolutionDir)external_libs\;windows-NT;$(NoInherit)"
 					/>
 				</FileConfiguration>
 			</File>

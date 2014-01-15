@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../../cvsapi"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../cvsapi"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;CVSTOOLS_EXPORT="
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -131,7 +131,7 @@
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="true"
-				AdditionalIncludeDirectories="../../cvsapi"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../cvsapi"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;CVSTOOLS_EXPORT="
 				StringPooling="true"
 				RuntimeLibrary="0"
