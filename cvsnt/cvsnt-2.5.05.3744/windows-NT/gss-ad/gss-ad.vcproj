@@ -71,7 +71,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="$(OutDir)/gss-ad.lib"
 			/>
 			<Tool
@@ -147,7 +147,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="$(OutDir)/gss-ad.lib"
 			/>
 			<Tool

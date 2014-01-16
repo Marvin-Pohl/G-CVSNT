@@ -70,7 +70,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool
@@ -141,7 +141,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool
@@ -213,7 +213,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool
@@ -285,7 +285,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool
@@ -356,7 +356,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool
@@ -428,7 +428,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib"
 			/>
 			<Tool

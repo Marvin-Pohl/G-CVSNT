@@ -62,7 +62,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
     			OutputFile="../../WinDebug/libxml2.lib"
 				IgnoreDefaultLibraryNames="msvcr90"
 			/>
@@ -126,7 +126,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="../../WinRel/libxml2.lib"
 			/>
 			<Tool

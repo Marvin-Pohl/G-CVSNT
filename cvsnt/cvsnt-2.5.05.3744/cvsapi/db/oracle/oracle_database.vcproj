@@ -83,7 +83,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="oci.lib"
 				OutputFile="../../../WinDebug/database/oracle.dll"
@@ -191,7 +191,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="oci.lib"
 				OutputFile="../../../WinRel/database/oracle.dll"

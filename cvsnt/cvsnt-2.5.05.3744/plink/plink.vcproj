@@ -67,7 +67,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="ws2_32.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				LinkIncremental="1"
@@ -155,7 +155,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="ws2_32.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				LinkIncremental="1"

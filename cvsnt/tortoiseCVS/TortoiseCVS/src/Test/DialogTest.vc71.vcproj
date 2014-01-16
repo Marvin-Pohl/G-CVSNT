@@ -38,7 +38,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				IgnoreImportLibrary="TRUE"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="wxbase26d.lib wxmsw26d_core.lib wxmsw26d_adv.lib ws2_32.lib comctl32.lib wininet.lib Rpcrt4.lib winmm.lib shlwapi.lib mpr.lib"
@@ -106,7 +106,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				IgnoreImportLibrary="TRUE"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="wxbase26.lib wxmsw26_core.lib wxmsw26_adv.lib ws2_32.lib comctl32.lib wininet.lib Rpcrt4.lib winmm.lib shlwapi.lib mpr.lib"

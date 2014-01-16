@@ -39,7 +39,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="Debug\cppunitd.lib"
 				SuppressStartupBanner="TRUE"/>
 			<Tool
@@ -92,7 +92,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile=".\Release\cppunit.lib"
 				SuppressStartupBanner="TRUE"/>
 			<Tool

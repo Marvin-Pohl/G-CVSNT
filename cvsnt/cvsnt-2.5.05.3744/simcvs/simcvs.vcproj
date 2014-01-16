@@ -62,7 +62,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/manifest&#x0D;&#x0A;"
 				AdditionalDependencies="Wintrust.lib"
 				OutputFile="$(OutDir)\$(ProjectName).exe"
@@ -146,7 +146,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="Wintrust.lib"
 				OutputFile="$(OutDir)\$(ProjectName).exe"
 				LinkIncremental="1"

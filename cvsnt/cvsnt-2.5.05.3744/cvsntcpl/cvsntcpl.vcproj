@@ -85,7 +85,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="netapi32.lib comctl32.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
@@ -194,7 +194,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/MACHINE:I386  "
 				AdditionalDependencies="netapi32.lib comctl32.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"

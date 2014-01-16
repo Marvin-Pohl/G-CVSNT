@@ -30,7 +30,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="ws2_32.lib"
 				OutputFile="$(OutDir)/mdnstest.exe"
 				LinkIncremental="1"
@@ -76,7 +76,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="ws2_32.lib"
 				OutputFile="$(OutDir)/mdnstest.exe"
 				LinkIncremental="1"

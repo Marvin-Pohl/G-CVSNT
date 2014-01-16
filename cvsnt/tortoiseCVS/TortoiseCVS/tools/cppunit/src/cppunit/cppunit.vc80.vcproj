@@ -68,7 +68,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="Debug\cppunitd.lib"
 				SuppressStartupBanner="true"
 			/>
@@ -144,7 +144,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile=".\Release\cppunit.lib"
 				SuppressStartupBanner="true"
 			/>

@@ -61,7 +61,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="$(OutDir)\$(ProjectName).cpl"
 				LinkIncremental="1"
 				IgnoreAllDefaultLibraries="false"
@@ -147,7 +147,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="$(OutDir)\$(ProjectName).cpl"
 				LinkIncremental="1"
 				IgnoreAllDefaultLibraries="false"

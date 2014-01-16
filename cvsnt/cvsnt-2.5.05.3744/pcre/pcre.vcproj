@@ -76,7 +76,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile=".\Debug\pcre.lib"
 				SuppressStartupBanner="true"
 				IgnoreDefaultLibraryNames="msvcr90"
@@ -159,7 +159,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile=".\Release\pcre.lib"
 				SuppressStartupBanner="true"
 			/>

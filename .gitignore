@@ -18,3 +18,8 @@ log2
 **/debug/**
 **/tmp/
 **/DebugWin32/
+**/Release/**
+**/ReleaseWin32/**
+cvsnt/cvsnt-2.5.05.3744/Winrel/
+cvsnt/cvsnt-2.5.05.3744/WinDebug/**
+*.ncb

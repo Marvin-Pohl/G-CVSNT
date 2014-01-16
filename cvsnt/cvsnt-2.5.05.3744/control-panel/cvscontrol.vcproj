@@ -43,7 +43,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				OmitFramePointers="false"
-    			AdditionalIncludeDirectories="$(SolutionDir)external_libs\;$(INCLUDE);../windows-NT;..\libxml\include"
+				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;$(INCLUDE);../windows-NT;..\libxml\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE,HAVE_CONFIG_H"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -69,6 +69,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..\cvsapi\"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -79,6 +80,7 @@
 				OutputFile="../WinDebug/cvscontrol.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(TargetDir)/$(TargetName).pdb"
 				GenerateMapFile="false"
@@ -165,6 +167,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="..\cvsapi\"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -175,6 +178,7 @@
 				OutputFile="../ReleaseWin32/cvscontrol.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(TargetDir)/$(TargetName).pdb"
 				GenerateMapFile="false"

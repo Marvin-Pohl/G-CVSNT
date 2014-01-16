@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="postgres"
 	ProjectGUID="{25226834-3D40-47AC-8E05-17A8A7AF1773}"
+	RootNamespace="postgres"
 	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
@@ -48,7 +49,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				OmitFramePointers="false"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../..;../../win32"
+				AdditionalIncludeDirectories="$(SolutionDir)libxml\include\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;postgres_database_EXPORTS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -88,6 +89,7 @@
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(TargetDir)/$(TargetName).pdb"
 				GenerateMapFile="false"
@@ -154,7 +156,7 @@
 				EnableIntrinsicFunctions="true"
 				FavorSizeOrSpeed="1"
 				OmitFramePointers="true"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../..;../../win32;..\..\..\libxml\include"
+				AdditionalIncludeDirectories="$(SolutionDir)libxml\include\"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;postgres_database_EXPORTS"
 				StringPooling="true"
 				RuntimeLibrary="2"
@@ -192,6 +194,7 @@
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(TargetDir)/$(TargetName).pdb"
 				GenerateMapFile="false"

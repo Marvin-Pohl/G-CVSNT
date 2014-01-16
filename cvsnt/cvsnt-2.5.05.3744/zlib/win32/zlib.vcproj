@@ -76,8 +76,8 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
-    			OutputFile="..\..\WinDebug\zlib.lib"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
+				OutputFile="..\..\WinDebug\zlib.lib"
 				SuppressStartupBanner="true"
 			/>
 			<Tool
@@ -157,7 +157,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLibrarianTool"
+				Name="VCLibrarianTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				OutputFile="..\..\Winrel\zlib.lib"
 				SuppressStartupBanner="true"
 			/>

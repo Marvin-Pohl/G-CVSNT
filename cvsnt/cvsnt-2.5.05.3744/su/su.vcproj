@@ -70,12 +70,11 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib netapi32.lib user32.lib advapi32.lib"
 				OutputFile="../WinDebug/su.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				AdditionalLibraryDirectories="$(LIB)"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/suidtest.pdb"
 				SubSystem="1"
@@ -161,11 +160,10 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="secur32.lib netapi32.lib user32.lib advapi32.lib"
 				OutputFile="../ReleaseWin32/su.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(LIB)"
 				GenerateDebugInformation="true"
 				SubSystem="0"
 				LargeAddressAware="2"

@@ -78,7 +78,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="libiconv.lib ws2_32.lib urlmon.lib wininet.lib secur32.lib dnsapi.lib wintrust.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				DelayLoadDLLs=""
@@ -173,7 +173,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="libiconv.lib ws2_32.lib urlmon.lib wininet.lib secur32.lib dnsapi.lib wintrust.lib"
 				OutputFile="$(OutDir)\$(ProjectName).dll"
 				IgnoreDefaultLibraryNames="msvcr90;MSVCRT;LIBCMTD"

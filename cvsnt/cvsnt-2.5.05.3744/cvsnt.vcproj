@@ -81,7 +81,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalDependencies="comctl32.lib wsock32.lib netapi32.lib mpr.lib ole32.lib libiconv.lib wininet.lib dbghelp.lib"
 				OutputFile="$(OutDir)\cvs.exe"
 				LinkIncremental="1"
@@ -180,7 +180,7 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
+				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="comctl32.lib wsock32.lib netapi32.lib mpr.lib ole32.lib libiconv.lib wininet.lib dbghelp.lib"
 				OutputFile="$(OutDir)\cvs.exe"
