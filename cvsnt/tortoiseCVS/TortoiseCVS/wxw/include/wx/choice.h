@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     26.07.99
-// RCS-ID:      $Id: choice.h,v 1.1 2012/03/04 01:07:23 aliot Exp $
+// RCS-ID:      $Id: choice.h,v 1.22 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 // Author:      Benjamin I. Williams
 // Modified by:
 // Created:     2008-08-04
-// RCS-ID:      $Id: auibar.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: auibar.h,v 1.2 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (C) Copyright 2005, Kirix Corporation, All Rights Reserved.
 // Licence:     wxWindows Library Licence, Version 3.1
 ///////////////////////////////////////////////////////////////////////////////

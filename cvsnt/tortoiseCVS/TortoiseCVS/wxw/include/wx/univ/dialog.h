@@ -3,7 +3,7 @@
 // Purpose:     wxDialog class
 // Author:      Vaclav Slavik
 // Created:     2001/09/16
-// RCS-ID:      $Id: dialog.h,v 1.1 2012/03/04 01:07:51 aliot Exp $
+// RCS-ID:      $Id: dialog.h,v 1.8 2010/12/27 19:41:00 bullestock Exp $
 // Copyright:   (c) 2001 SciTech Software, Inc. (www.scitechsoft.com)
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

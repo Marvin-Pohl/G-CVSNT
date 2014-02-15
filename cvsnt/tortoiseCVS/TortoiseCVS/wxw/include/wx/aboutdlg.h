@@ -3,7 +3,7 @@
 // Purpose:     declaration of wxAboutDialog class
 // Author:      Vadim Zeitlin
 // Created:     2006-10-07
-// RCS-ID:      $Id: aboutdlg.h,v 1.1 2012/03/04 01:07:22 aliot Exp $
+// RCS-ID:      $Id: aboutdlg.h,v 1.3 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2006 Vadim Zeitlin <vadim@wxwindows.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

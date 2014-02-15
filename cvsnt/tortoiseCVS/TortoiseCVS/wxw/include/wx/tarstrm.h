@@ -2,7 +2,7 @@
 // Name:        wx/tarstrm.h
 // Purpose:     Streams for Tar files
 // Author:      Mike Wetherell
-// RCS-ID:      $Id: tarstrm.h,v 1.1 2012/03/04 01:07:26 aliot Exp $
+// RCS-ID:      $Id: tarstrm.h,v 1.3 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2004 Mike Wetherell
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

@@ -3,7 +3,7 @@
 // Purpose:     declarations for SEH (structured exceptions handling) support
 // Author:      Vadim Zeitlin
 // Created:     2006-04-26
-// RCS-ID:      $Id: seh.h,v 1.1 2012/03/04 01:07:43 aliot Exp $
+// RCS-ID:      $Id: seh.h,v 1.3 2010/12/27 19:40:40 bullestock Exp $
 // Copyright:   (c) 2006 Vadim Zeitlin <vadim@wxwindows.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

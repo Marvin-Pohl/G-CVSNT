@@ -4,7 +4,7 @@
 # liaobin <liaobin@jite.net>
 # riceball <riceball@cq118.com>
 # NetCobra <netcobra@gmail.com>
-# $Id: zh_CN.po,v 1.1 2012/03/04 01:09:09 aliot Exp $
+# $Id: zh_CN.po,v 1.37 2007/04/28 14:32:41 netcobra Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseCVS\n"

@@ -20,7 +20,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../wxw/include"
+				AdditionalIncludeDirectories="../../wxw/include"
 				PreprocessorDefinitions="_DEBUG;WIN32;__WXMSW__;__WXDEBUG__;WINVER=0x0400;STRICT;HAVE_ERRNO_H"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -38,7 +38,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
+				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="wxbase26d.lib wxmsw26d_core.lib wxmsw26d_adv.lib ws2_32.lib comctl32.lib wininet.lib Rpcrt4.lib winmm.lib shlwapi.lib mpr.lib"
@@ -66,7 +66,7 @@
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
 				Culture="1033"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../../wxWindows/include;../../wxw/include"/>
+				AdditionalIncludeDirectories="../../../wxWindows/include;../../wxw/include"/>
 			<Tool
 				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
@@ -89,7 +89,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../wxw/include"
+				AdditionalIncludeDirectories="../../wxw/include"
 				PreprocessorDefinitions="NDEBUG;WIN32;__WXMSW__;WINVER=0x0400;STRICT;HAVE_ERRNO_H"
 				StringPooling="TRUE"
 				RuntimeLibrary="2"
@@ -106,7 +106,7 @@
 			<Tool
 				Name="VCCustomBuildTool"/>
 			<Tool
-				Name="VCLinkerTool" AdditionalLibraryDirectories="$(SolutionDir)external_libs\"
+				Name="VCLinkerTool"
 				IgnoreImportLibrary="TRUE"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="wxbase26.lib wxmsw26_core.lib wxmsw26_adv.lib ws2_32.lib comctl32.lib wininet.lib Rpcrt4.lib winmm.lib shlwapi.lib mpr.lib"
@@ -134,7 +134,7 @@
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="NDEBUG"
 				Culture="1033"
-				AdditionalIncludeDirectories="$(SolutionDir)external_libs\;../../../wxWindows/include;../../wxw/include"/>
+				AdditionalIncludeDirectories="../../../wxWindows/include;../../wxw/include"/>
 			<Tool
 				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool

@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     27.09.2003 (extracted from wx/display.h)
-// RCS-ID:      $Id: vidmode.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+// RCS-ID:      $Id: vidmode.h,v 1.11 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2003 Vadim Zeitlin <vadim@wxwidgets.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

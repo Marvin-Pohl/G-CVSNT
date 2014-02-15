@@ -170,7 +170,7 @@ function vc90_get_targetpaths()
     if [ "$DEBUG" == "1" ]
     then
         echo "Build debug versions using VC 9.0"
-        RELEASE_TYPE=RelWithDebInfo
+        RELEASE_TYPE=Debug
     else
         echo "Build release versions using VC 9.0"
         RELEASE_TYPE=Release
@@ -182,7 +182,7 @@ function vc90_get_targetpaths()
     TORTOISESHELL_PATH=$retval
     vc90_get_targetpath TortoiseShell $RELEASE_TYPE x64
     TORTOISESHELL64_PATH=$retval
-    vc90_get_targetpath TortoisePlink Release Win32
+    vc90_get_targetpath TortoisePlink $RELEASE_TYPE Win32
     TORTOISEPLINK_PATH=$retval
     vc90_get_targetpath PostInst $RELEASE_TYPE Win32
     POSTINST_PATH=$retval
@@ -194,7 +194,7 @@ function vc90_get_targetpaths()
     RUNTIMEINSTALLER_PATH=$retval
     vc90_get_targetpath RunTimeInstaller $RELEASE_TYPE x64
     RUNTIMEINSTALLER64_PATH=$retval
-    vc90_get_targetpath TranslateIss Release Win32
+    vc90_get_targetpath TranslateIss $RELEASE_TYPE Win32
     TRANSLATEISS_PATH=$retval
 }
 
@@ -220,8 +220,8 @@ function vc90_build()
 # Build TortoiseCVS using VC 9.0
 function build_vc90()
 {
-    local MSVCDIR=$(regtool get '\machine\Software\Microsoft\VisualStudio\9.0\InstallDir' 2> /dev/null) || True
-    local MSDevDir=`cygpath "$MSVCDIR"`
+    #local MSVCDIR=$(regtool get '\machine\Software\Microsoft\VisualStudio\9.0\InstallDir' 2> /dev/null) || True
+    local MSDevDir=`cygpath "$VS90COMNTOOLS/../IDE/"`
     PATH="$MSDevDir":$PATH
 
     if [ "$MAKECLEAN" == "1" ]

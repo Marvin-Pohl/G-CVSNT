@@ -1,5 +1,5 @@
 # TortoiseCVS - enjoyable version control
-# $Header: /cvs/cvsnt/tortoiseCVS/po/TortoiseCVS/da_DK.po,v 1.1 2012/03/04 01:09:09 aliot Exp $
+# $Header: /cvsroot-fuse/tortoisecvs/po/TortoiseCVS/da_DK.po,v 1.29 2007/02/27 21:24:12 bullestock Exp $
 # http://www.tortoisecvs.org
 # Dansk (da_DK) language .po-file
 # Oversættelse til version 1.5.2 af

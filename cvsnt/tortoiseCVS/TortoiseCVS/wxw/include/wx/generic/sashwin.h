@@ -6,7 +6,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     01/02/97
-// RCS-ID:      $Id: sashwin.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: sashwin.h,v 1.21 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

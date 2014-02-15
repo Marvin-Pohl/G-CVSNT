@@ -3,7 +3,7 @@
 // Purpose:     XML resource handler for wxDirPickerCtrl
 // Author:      Francesco Montorsi
 // Created:     2006-04-17
-// RCS-ID:      $Id: xh_dirpicker.h,v 1.1 2012/03/04 01:07:54 aliot Exp $
+// RCS-ID:      $Id: xh_dirpicker.h,v 1.3 2010/12/27 19:41:07 bullestock Exp $
 // Copyright:   (c) 2006 Francesco Montorsi
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

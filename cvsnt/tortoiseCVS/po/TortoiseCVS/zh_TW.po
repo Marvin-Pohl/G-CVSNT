@@ -3,7 +3,7 @@
 # Chinese (zh_TW) language .po-file
 # convert from zh_CN
 # Rex Tsai <chihchun@debian.org.tw>
-# $Id: zh_TW.po,v 1.1 2012/03/04 01:09:09 aliot Exp $
+# $Id: zh_TW.po,v 1.29 2007/02/27 21:24:20 bullestock Exp $
 msgid ""
 msgstr ""
 "Project-Id-Version: TortoiseCVS\n"

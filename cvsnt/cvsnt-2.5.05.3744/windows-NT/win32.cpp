@@ -398,6 +398,8 @@ void win32init(int serv_active)
 			if (strcasecmp(CVSNT_SPECIAL_BUILD,"Suite")!=0)
 #endif
 			{
+				if(false)
+				{
 			  if (CGlobalSettings::GetUserValue("cvsnt","cvsadvert","LastAdvert",lastAdvert))
 				lastAdvert=0;
 			  if (CGlobalSettings::GetUserValue("cvsnt","cvsadvert","AdvertInterval",advertInterval))
@@ -448,6 +450,7 @@ void win32init(int serv_active)
 						CGlobalSettings::SetUserValue("cvsnt","cvsadvert","LastAdvert",now);
 				}
 			  }
+			}
 			}
 		}
 	}

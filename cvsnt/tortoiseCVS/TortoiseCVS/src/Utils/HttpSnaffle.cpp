@@ -1,4 +1,4 @@
-// $Id: HttpSnaffle.cpp,v 1.1 2012/03/04 01:06:54 aliot Exp $
+// $Id: HttpSnaffle.cpp,v 1.12 2006/05/29 21:06:26 bullestock Exp $
 
 // InstallLib - library of code for making Windows installation programs
 // Copyright (C) 2000 - Creature Labs

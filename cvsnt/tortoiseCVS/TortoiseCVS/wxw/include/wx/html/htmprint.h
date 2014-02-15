@@ -3,7 +3,7 @@
 // Purpose:     html printing classes
 // Author:      Vaclav Slavik
 // Created:     25/09/99
-// RCS-ID:      $Id: htmprint.h,v 1.1 2012/03/04 01:07:41 aliot Exp $
+// RCS-ID:      $Id: htmprint.h,v 1.21 2010/12/27 19:40:39 bullestock Exp $
 // Copyright:   (c) Vaclav Slavik
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

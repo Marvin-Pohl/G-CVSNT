@@ -3,7 +3,7 @@
 // Purpose:     XML resource handler for wxGrid
 // Author:      Agron Selimaj
 // Created:     2005/08/11
-// RCS-ID:      $Id: xh_grid.h,v 1.1 2012/03/04 01:07:54 aliot Exp $
+// RCS-ID:      $Id: xh_grid.h,v 1.3 2010/12/27 19:41:07 bullestock Exp $
 // Copyright:   (c) 2005 Agron Selimaj, Freepour Controls Inc.
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     13.07.2003
-// RCS-ID:      $Id: crashrpt.h,v 1.1 2012/03/04 01:07:42 aliot Exp $
+// RCS-ID:      $Id: crashrpt.h,v 1.11 2010/12/27 19:40:39 bullestock Exp $
 // Copyright:   (c) 2003 Vadim Zeitlin <vadim@wxwidgets.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

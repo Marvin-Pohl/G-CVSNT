@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     07.07.99
-// RCS-ID:      $Id: dialup.h,v 1.1 2012/03/04 01:07:24 aliot Exp $
+// RCS-ID:      $Id: dialup.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Vadim Zeitlin
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

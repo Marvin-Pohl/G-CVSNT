@@ -1,6 +1,6 @@
 /* inputting files to be patched */
 
-/* $Id: inp.cpp,v 1.1 2012/03/04 01:06:58 aliot Exp $ */
+/* $Id: inp.cpp,v 1.4 2008/01/03 22:02:44 bullestock Exp $ */
 
 /* Copyright 1986, 1988 Larry Wall
    Copyright 1991, 1992-1993, 1997-1998, 1999 Free Software Foundation, Inc.

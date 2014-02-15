@@ -4,7 +4,7 @@
 // Author:      Royce Mitchell III
 // Modified by:
 // Created:     06/21/02
-// RCS-ID:      $Id: display.h,v 1.1 2012/03/04 01:07:42 aliot Exp $
+// RCS-ID:      $Id: display.h,v 1.13 2006/05/24 22:40:38 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

@@ -5,7 +5,7 @@
 *  Author:      Vadim Zeitlin
 *  Modified by: Ryan Norton (Converted to C)
 *  Created:     18.03.02
-*  RCS-ID:      $Id: features.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+*  RCS-ID:      $Id: features.h,v 1.17 2010/12/27 19:39:48 bullestock Exp $
 *  Copyright:   (c) 2002 Vadim Zeitlin <vadim@wxwidgets.org>
 *  Licence:     wxWindows licence
 */

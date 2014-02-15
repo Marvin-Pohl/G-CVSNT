@@ -1426,7 +1426,6 @@ void AddFilesDialog::MenuListFormatAuto(wxCommandEvent&)
 // Menu handler for "Options->Binary Diff" in the list
 void AddFilesDialog::MenuListOptionsBinDiff(wxCommandEvent& e)
 {
-   SetFileFormat(CVSStatus::fmtBinary);
    SetFileOption(CVSStatus::foBinaryDiff, e.IsChecked());
 }
 
@@ -2215,7 +2214,7 @@ AddFilesEntryTreeData::AddFilesEntryTreeData(FileTree::Node& node,
    
    m_IsSelected = m_AddFilesData.mySelected;
 
-   CVSStatus::GuessFileFormat(entry.myAbsoluteFile, m_AddFilesData.myFileFormat, m_AddFilesData.myFileOptions);
+   m_AddFilesData.myFileFormat = CVSStatus::GuessFileFormat(entry.myAbsoluteFile);
    // If Unicode is not supported, use binary instead
    if (m_AddFilesData.myFileFormat == CVSStatus::fmtUnicode
       && !entry.myDirectoryGroup.myCVSServerFeatures.SupportsUnicode())
@@ -2234,6 +2233,9 @@ AddFilesEntryTreeData::AddFilesEntryTreeData(FileTree::Node& node,
    {
       m_AddFilesData.myKeywordOptions = CVSStatus::keyNormal;
    }
+
+   // Default settings for file options
+   m_AddFilesData.myFileOptions = 0;
 }
 
 

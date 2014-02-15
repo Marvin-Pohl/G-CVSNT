@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     10/4/2006 8:03:20 AM
-// RCS-ID:      $Id: richtexttabspage.h,v 1.1 2012/03/04 01:07:51 aliot Exp $
+// RCS-ID:      $Id: richtexttabspage.h,v 1.3 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

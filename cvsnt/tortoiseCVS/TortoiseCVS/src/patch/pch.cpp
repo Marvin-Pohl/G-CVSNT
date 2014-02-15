@@ -1,6 +1,6 @@
 /* reading patches */
 
-/* $Id: pch.cpp,v 1.1 2012/03/04 01:06:58 aliot Exp $ */
+/* $Id: pch.cpp,v 1.4 2006/11/09 21:32:20 bullestock Exp $ */
 
 /* Copyright 1986, 1987, 1988 Larry Wall
    Copyright 1990, 1991-1993, 1997-1998, 1999 Free Software Foundation, Inc.

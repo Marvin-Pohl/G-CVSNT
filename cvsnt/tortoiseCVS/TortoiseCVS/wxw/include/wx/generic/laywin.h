@@ -7,7 +7,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     04/01/98
-// RCS-ID:      $Id: laywin.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: laywin.h,v 1.21 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

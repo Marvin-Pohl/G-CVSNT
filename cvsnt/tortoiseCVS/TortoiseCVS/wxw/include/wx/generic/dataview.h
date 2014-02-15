@@ -2,7 +2,7 @@
 // Name:        wx/generic/dataview.h
 // Purpose:     wxDataViewCtrl generic implementation header
 // Author:      Robert Roebling
-// Id:          $Id: dataview.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// Id:          $Id: dataview.h,v 1.3 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) 1998 Robert Roebling
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

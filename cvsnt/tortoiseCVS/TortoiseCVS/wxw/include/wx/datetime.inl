@@ -7,7 +7,7 @@
 //              dependencies (and hence the rebuild time) in debug builds.
 // Modified by:
 // Created:     30.11.99
-// RCS-ID:      $Id: datetime.inl,v 1.1 2012/03/04 01:07:24 aliot Exp $
+// RCS-ID:      $Id: datetime.inl,v 1.15 2005/06/03 20:25:26 bullestock Exp $
 // Copyright:   (c) 1999 Vadim Zeitlin <zeitlin@dptmaths.ens-cachan.fr>
 // Licence:     wxWindows license
 /////////////////////////////////////////////////////////////////////////////

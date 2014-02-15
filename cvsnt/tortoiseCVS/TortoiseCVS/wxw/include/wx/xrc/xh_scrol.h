@@ -3,7 +3,7 @@
 // Purpose:     XML resource handler for wxScrollBar
 // Author:      Brian Gavin
 // Created:     2000/09/09
-// RCS-ID:      $Id: xh_scrol.h,v 1.1 2012/03/04 01:07:54 aliot Exp $
+// RCS-ID:      $Id: xh_scrol.h,v 1.4 2010/12/27 19:41:07 bullestock Exp $
 // Copyright:   (c) 2000 Brian Gavin
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

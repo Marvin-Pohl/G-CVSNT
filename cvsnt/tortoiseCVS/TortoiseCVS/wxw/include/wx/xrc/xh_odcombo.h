@@ -3,7 +3,7 @@
 // Purpose:     XML resource handler for wxOwnerDrawnComboBox
 // Author:      Alex Bligh - based on wx/xrc/xh_combo.h
 // Created:     2006/06/19
-// RCS-ID:      $Id: xh_odcombo.h,v 1.1 2012/03/04 01:07:54 aliot Exp $
+// RCS-ID:      $Id: xh_odcombo.h,v 1.3 2010/12/27 19:41:07 bullestock Exp $
 // Copyright:   (c) 2006 Alex Bligh
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

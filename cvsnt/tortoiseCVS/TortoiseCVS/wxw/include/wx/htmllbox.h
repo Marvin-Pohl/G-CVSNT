@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     31.05.03
-// RCS-ID:      $Id: htmllbox.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: htmllbox.h,v 1.11 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2003 Vadim Zeitlin <vadim@wxwidgets.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

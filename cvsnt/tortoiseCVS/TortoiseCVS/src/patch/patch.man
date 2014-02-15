@@ -2,7 +2,7 @@
 .de Id
 .ds Dt \\$4
 ..
-.Id $Id: patch.man,v 1.1 2012/03/04 01:06:58 aliot Exp $
+.Id $Id: patch.man,v 1.1 2005/09/17 22:13:35 bullestock Exp $
 .ds = \-\^\-
 .de Sp
 .if t .sp .3

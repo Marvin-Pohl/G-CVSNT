@@ -4,7 +4,7 @@
 // Author:      Julian Smart, Robert Roebling, Vadim Zeitlin
 // Modified by:
 // Created:     31.05.01 (extracted from other files)
-// RCS-ID:      $Id: accel.h,v 1.1 2012/03/04 01:07:22 aliot Exp $
+// RCS-ID:      $Id: accel.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

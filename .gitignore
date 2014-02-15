@@ -3,6 +3,10 @@
 *.lo
 *.o
 
+#Visual Studio files
+*.sdf
+*.opensdf
+
 # Compiled Dynamic libraries
 *.so
 
@@ -14,6 +18,7 @@ CVS
 log1
 log2
 *.user
+*.sdf
 **/Debug/**
 **/debug/**
 **/tmp/
@@ -29,3 +34,5 @@ cvsnt/cvsnt-2.5.05.3744/tmp/ReleaseWin32/
 **/win32/Release/*
 **/win32/Release/*
 Release/
+
+Debug/

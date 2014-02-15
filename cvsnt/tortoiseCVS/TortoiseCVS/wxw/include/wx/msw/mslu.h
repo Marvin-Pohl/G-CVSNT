@@ -5,7 +5,7 @@
 // Modified by: Vadim Zeitlin to move out various functions to other files
 //              to fix header inter-dependencies
 // Created:     2002/02/17
-// RCS-ID:      $Id: mslu.h,v 1.1 2012/03/04 01:07:42 aliot Exp $
+// RCS-ID:      $Id: mslu.h,v 1.16 2010/12/27 19:40:40 bullestock Exp $
 // Copyright:   (c) 2002 Vaclav Slavik
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

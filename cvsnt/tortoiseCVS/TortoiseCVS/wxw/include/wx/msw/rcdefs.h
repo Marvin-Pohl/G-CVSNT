@@ -2,7 +2,7 @@
 // Name:        wx/msw/rcdefs.h
 // Purpose:     Fallback for the generated rcdefs.h under the lib directory
 // Author:      Mike Wetherell
-// RCS-ID:      $Id: rcdefs.h,v 1.1 2012/03/04 01:07:42 aliot Exp $
+// RCS-ID:      $Id: rcdefs.h,v 1.4 2010/12/27 19:40:40 bullestock Exp $
 // Copyright:   (c) 2005 Mike Wetherell
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

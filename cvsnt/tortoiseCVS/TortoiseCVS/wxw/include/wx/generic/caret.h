@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin (original code by Robert Roebling)
 // Modified by:
 // Created:     25.05.99
-// RCS-ID:      $Id: caret.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: caret.h,v 1.21 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

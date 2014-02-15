@@ -3,7 +3,7 @@
 // Purpose:     generic wxSearchCtrl class
 // Author:      Vince Harron
 // Created:     2006-02-19
-// RCS-ID:      $Id: srchctlg.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: srchctlg.h,v 1.3 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   Vince Harron
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

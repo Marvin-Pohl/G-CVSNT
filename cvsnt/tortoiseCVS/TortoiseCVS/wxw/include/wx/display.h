@@ -3,7 +3,7 @@
 // Purpose:     wxDisplay class
 // Author:      Royce Mitchell III, Vadim Zeitlin
 // Created:     06/21/02
-// RCS-ID:      $Id: display.h,v 1.1 2012/03/04 01:07:24 aliot Exp $
+// RCS-ID:      $Id: display.h,v 1.16 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2002-2006 wxWidgets team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

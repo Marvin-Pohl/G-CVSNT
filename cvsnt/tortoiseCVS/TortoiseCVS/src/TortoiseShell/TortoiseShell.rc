@@ -30,8 +30,8 @@ LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,12,5,6
- PRODUCTVERSION 1,12,5,6
+ FILEVERSION 1,12,5,18
+ PRODUCTVERSION 1,12,5,18
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -49,14 +49,14 @@ BEGIN
             VALUE "Comments", "\0"
             VALUE "CompanyName", "www.tortoisecvs.org\0"
             VALUE "FileDescription", "TortoiseShell\0"
-            VALUE "FileVersion", "1.12.5.6\0"
+            VALUE "FileVersion", "1.12.5.18 plus test fixes built on Sat, Feb 15, 2014  4:41:06 PM\0"
             VALUE "InternalName", "TortoiseShell\0"
             VALUE "LegalCopyright", "Copyright © 2003\0"
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "TortoiseShell.dll\0"
             VALUE "PrivateBuild", "\0"
             VALUE "ProductName", "TortoiseCVS TortoiseShell\0"
-            VALUE "ProductVersion", "1.12.5.6\0"
+            VALUE "ProductVersion", "1.12.5.18 plus test fixes built on Sat, Feb 15, 2014  4:41:06 PM\0"
             VALUE "SpecialBuild", "\0"
         END
     END

@@ -4,7 +4,7 @@
 // Author:      Michael Bedward (based on code by Julian Smart, Robin Dunn)
 // Modified by: Santiago Palacios
 // Created:     1/08/1999
-// RCS-ID:      $Id: grid.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: grid.h,v 1.21 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) Michael Bedward
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

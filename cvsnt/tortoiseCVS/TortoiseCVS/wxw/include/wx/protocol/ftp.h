@@ -5,7 +5,7 @@
 // Modified by: Mark Johnson, wxWindows@mj10777.de 
 //              20000917 : RmDir, GetLastResult, GetList
 // Created:     07/07/1997
-// RCS-ID:      $Id: ftp.h,v 1.1 2012/03/04 01:07:50 aliot Exp $
+// RCS-ID:      $Id: ftp.h,v 1.21 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) 1997, 1998 Guilhem Lavaux
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

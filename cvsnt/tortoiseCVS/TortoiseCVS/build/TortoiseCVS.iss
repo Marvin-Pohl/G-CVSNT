@@ -392,19 +392,19 @@ Root: HKLM32; Subkey: Software\TortoiseCVS; Flags: uninsdeletekey
 
 ; Vista UAC fixes
 
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{000214e6-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{000214e8-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{0000010b-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB711-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB712-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB713-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB714-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB715-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB716-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{000214E4-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{00021500-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
-Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{000214E9-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{000214e6-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{000214e8-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5d1cb710-1c4b-11d4-bed5-005004b1f42f} {{0000010b-0000-0000-c000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB711-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB712-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB713-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB714-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB715-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB716-1C4B-11D4-BED5-005004B1F42F} {{0C6C4200-C589-11D0-999A-00C04FD655E1} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{000214E4-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{00021500-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
+;Root: HKLM; Subkey: Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached; ValueType: dword; ValueName: "{{5D1CB710-1C4B-11D4-BED5-005004B1F42F} {{000214E9-0000-0000-C000-000000000046} 0x401"; ValueData: 1; MinVersion: 0, 6
 
 [Icons]
 Name: {group}\_("Help"); Filename: {app}\Help.html; WorkingDir: {app}; IconIndex: 0

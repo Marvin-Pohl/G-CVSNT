@@ -4,7 +4,7 @@
 // Author:      Vaclav Slavik
 // Modified by:
 // Created:     22.04.01
-// RCS-ID:      $Id: bitmap.h,v 1.1 2012/03/04 01:07:22 aliot Exp $
+// RCS-ID:      $Id: bitmap.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

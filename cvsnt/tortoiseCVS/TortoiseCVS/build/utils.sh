@@ -39,7 +39,8 @@ function die()
 function concatpaths()
 {
     local s2=`cygpath "$2"`
-    if [ `expr substr "$s2" 1 1` == "/" ]; then
+    if [ `expr substr "$s2" 1 1` == "/" ]; 
+    then
 	retval=$s2
     else
 	retval=`cygpath "$1"`

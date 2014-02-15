@@ -4,7 +4,7 @@
 // Author:      Stefan Csomor
 // Modified by:
 // Created:     27/07/03
-// RCS-ID:      $Id: xtixml.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+// RCS-ID:      $Id: xtixml.h,v 1.11 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2003 Stefan Csomor
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

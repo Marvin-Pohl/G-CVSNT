@@ -313,7 +313,7 @@ public:
    static bool ResetFileTimestamp(const std::string& filename);
    static bool IsDisabledPath(const std::string& path, bool isDirectory = false);
    static bool IsOuterDirectory(const std::string& path);
-   static bool GuessFileFormat(const std::string& filename, FileFormat &fmt, FileOptions &fo);
+   static FileFormat GuessFileFormat(const std::string& filename);
    static bool IsBinary(const std::string& file);
    static bool IsDirInCVS(const std::string& dir);
    

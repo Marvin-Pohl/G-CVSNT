@@ -5,7 +5,7 @@
 // Author:      John Norris, minor changes by Axel Schlueter
 // Modified by:
 // Created:     08.02.01
-// RCS-ID:      $Id: tglbtn.h,v 1.1 2012/03/04 01:07:43 aliot Exp $
+// RCS-ID:      $Id: tglbtn.h,v 1.21 2010/12/27 19:40:40 bullestock Exp $
 // Copyright:   (c) 2000 Johnny C. Norris II
 // License:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

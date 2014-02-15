@@ -228,8 +228,8 @@ CVSAction::CVSAction(wxWindow* parent, int flags)
    myUses = 0;
    myErrors = 0;
 
-   int tick = static_cast<int>(time(0));
-   TortoiseRegistry::WriteInteger("\\HKEY_CURRENT_USER\\Software\\Cvsnt\\cvsadvert\\LastAdvert", tick);
+   //int tick = static_cast<int>(time(0));
+   //TortoiseRegistry::WriteInteger("\\HKEY_CURRENT_USER\\Software\\Cvsnt\\cvsadvert\\LastAdvert", tick);
 
    // Create unnamed event for synchronization when we do not have a progress dialog
    myThreadEvent = CreateEvent(0, FALSE, FALSE, 0);

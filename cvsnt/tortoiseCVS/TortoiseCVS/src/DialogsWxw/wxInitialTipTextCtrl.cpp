@@ -4,7 +4,7 @@
 //               which goes away when you click on it
 // Author:      Francis Irving
 // Modified by:
-// RCS-ID:      $Id: wxInitialTipTextCtrl.cpp,v 1.1 2012/03/04 01:06:37 aliot Exp $
+// RCS-ID:      $Id: wxInitialTipTextCtrl.cpp,v 1.12 2008/06/11 22:22:36 bullestock Exp $
 // Copyright:   (c) Francis Irving
 // Licence:     wxWindows license
 /////////////////////////////////////////////////////////////////////////////

@@ -5,7 +5,7 @@ dnl and abi::__cxa_demangle() function), define HAVE_GCC_ABI_DEMANGLE
 dnl
 dnl Adapted from AC_CXX_RTTI by Luc Maisonobe
 dnl
-dnl @version $Id: ax_cxx_gcc_abi_demangle.m4,v 1.1 2012/03/04 01:07:01 aliot Exp $
+dnl @version $Id: ax_cxx_gcc_abi_demangle.m4,v 1.1.1.1 2005/11/12 22:53:48 bullestock Exp $
 dnl @author Neil Ferguson <nferguso@eso.org>
 dnl
 AC_DEFUN([AX_CXX_GCC_ABI_DEMANGLE],

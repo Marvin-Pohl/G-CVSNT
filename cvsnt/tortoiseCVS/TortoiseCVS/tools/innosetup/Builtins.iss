@@ -9,7 +9,7 @@
 // Inno Setup (C) 1997-2009 Jordan Russell. All Rights Reserved.
 // Portions by Martijn Laan.
 //
-// $Id: Builtins.iss,v 1.1 2012/03/04 01:07:19 aliot Exp $
+// $Id: Builtins.iss,v 1.10 2011/01/03 15:01:18 bullestock Exp $
 //
 #if defined(ISPP_INVOKED) && !defined(_BUILTINS_ISS_)
 //

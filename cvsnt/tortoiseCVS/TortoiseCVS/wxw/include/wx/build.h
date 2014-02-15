@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin, Vaclav Slavik
 // Modified by:
 // Created:     07.05.02
-// RCS-ID:      $Id: build.h,v 1.1 2012/03/04 01:07:23 aliot Exp $
+// RCS-ID:      $Id: build.h,v 1.16 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 2002 Vadim Zeitlin <vadim@wxwidgets.org>
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

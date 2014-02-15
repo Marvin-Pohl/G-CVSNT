@@ -5,7 +5,7 @@
 // Modified by:
 // Created:     8/17/99
 // Copyright:   (c) Robert Roebling
-// RCS-ID:      $Id: filedlg.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: filedlg.h,v 1.17 2010/12/27 19:39:48 bullestock Exp $
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
 

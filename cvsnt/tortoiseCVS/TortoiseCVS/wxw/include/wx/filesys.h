@@ -3,7 +3,7 @@
 // Purpose:     class for opening files - virtual file system
 // Author:      Vaclav Slavik
 // Copyright:   (c) 1999 Vaclav Slavik
-// RCS-ID:      $Id: filesys.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: filesys.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
 

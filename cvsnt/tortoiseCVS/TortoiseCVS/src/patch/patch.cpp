@@ -1,6 +1,6 @@
 /* patch - a program to apply diffs to original files */
 
-/* $Id: patch.cpp,v 1.1 2012/03/04 01:06:58 aliot Exp $ */
+/* $Id: patch.cpp,v 1.5 2006/11/09 21:32:20 bullestock Exp $ */
 
 /* Copyright 1984, 1985-1987, 1988 Larry Wall
    Copyright 1989, 1990-1993, 1997-1998, 1999 Free Software Foundation, Inc.

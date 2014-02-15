@@ -1,0 +1,14 @@
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/UnitTest/CMakeFiles/ALL_BUILD.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/CVSGlue/CMakeFiles/CVSGlue.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/PostInst/CMakeFiles/PostInst.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/RunTimeInstaller/CMakeFiles/RunTimeInstaller.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/TortoiseAct/CMakeFiles/TortoiseAct.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/TortoisePlink/CMakeFiles/TortoisePlink.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/TortoiseSetupHelper/CMakeFiles/TortoiseSetupHelper.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/TortoiseShell/CMakeFiles/TortoiseShell.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/TranslateIss/CMakeFiles/TranslateIss.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/UnitTest/CMakeFiles/UnitTests.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/CMakeFiles/Utils.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/CMakeFiles/ZERO_CHECK.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/CppUnit/CMakeFiles/cppunit.dir
+C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/cvstree/CMakeFiles/cvstree.dir

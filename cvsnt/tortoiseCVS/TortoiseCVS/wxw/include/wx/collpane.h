@@ -4,7 +4,7 @@
 // Author:      Francesco Montorsi
 // Modified by:
 // Created:     8/10/2006
-// RCS-ID:      $Id: collpane.h,v 1.1 2012/03/04 01:07:24 aliot Exp $
+// RCS-ID:      $Id: collpane.h,v 1.3 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Francesco Montorsi
 // Licence:     wxWindows Licence
 /////////////////////////////////////////////////////////////////////////////

@@ -1,7 +1,6 @@
 @echo off
 :: Generate VC9 projects/solutions
-set path=%path%;"D:\cvsnt\CMake 2.8\bin\"
-set CMAKE_ROOT=D:\cvsnt\cmake\bin\
+
 set CURDIR=%CD%
 
 mkdir vc9Win32 2> nul:

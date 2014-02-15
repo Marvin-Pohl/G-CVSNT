@@ -1,4 +1,4 @@
-// $Id: Thread.inl,v 1.1 2012/03/04 01:06:55 aliot Exp $
+// $Id: Thread.inl,v 1.7 2006/02/24 21:44:14 bullestock Exp $
 
 // InstallLib - library of code for making Windows installation programs
 // Copyright (c) 2001, CyberLife Technology Ltd.

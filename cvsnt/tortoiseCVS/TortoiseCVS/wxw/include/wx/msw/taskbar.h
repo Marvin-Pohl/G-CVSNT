@@ -5,7 +5,7 @@
 // Author:      Julian Smart
 // Modified by: Vaclav Slavik
 // Created:     24/3/98
-// RCS-ID:      $Id: taskbar.h,v 1.1 2012/03/04 01:07:43 aliot Exp $
+// RCS-ID:      $Id: taskbar.h,v 1.21 2010/12/27 19:40:40 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////

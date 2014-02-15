@@ -4,7 +4,7 @@
 // Author:      David Elliott
 // Modified by:
 // Created:     2004/04/12
-// RCS-ID:      $Id: region.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: region.h,v 1.10 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) 2004 David Elliott
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

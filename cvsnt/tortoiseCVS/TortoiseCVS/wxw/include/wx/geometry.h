@@ -4,7 +4,7 @@
 // Author:      Stefan Csomor
 // Modified by:
 // Created:     08/05/99
-// RCS-ID:      $Id: geometry.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: geometry.h,v 1.14 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 1999 Stefan Csomor
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

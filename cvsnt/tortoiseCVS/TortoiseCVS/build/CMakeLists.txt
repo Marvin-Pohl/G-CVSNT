@@ -61,12 +61,12 @@ MACRO(ADD_FLEX_FILES)
 
 	ADD_CUSTOM_COMMAND(
             OUTPUT ${_out}
-            COMMAND D:/CVSNT/GnuWin32/bin/flex++${CMAKE_EXECUTABLE_SUFFIX}
+            COMMAND /GnuWin32/bin/flex++${CMAKE_EXECUTABLE_SUFFIX}
             ARGS
 	    -+ -d -S${CMAKE_CURRENT_SOURCE_DIR}/flex.skl
             -o${_out}
             ${_in}
-	    WORKING_DIRECTORY "D:/CVSNT/GnuWin32/bin"
+	    WORKING_DIRECTORY "/GnuWin32/bin"
             DEPENDS ${_in})
 
 	LIST(APPEND CPP_SOURCE ${_out})
@@ -83,10 +83,10 @@ MACRO(ADD_BISON_FILES)
 
     ADD_CUSTOM_COMMAND(
             OUTPUT ${_out}
-            COMMAND D:/CVSNT/GnuWin32/bin/bison${CMAKE_EXECUTABLE_SUFFIX}
+            COMMAND /GnuWin32/bin/bison${CMAKE_EXECUTABLE_SUFFIX}
             ARGS
             --name-prefix=getdate_ -o ${_out} -d ${_in} -S yacc.c
-	    WORKING_DIRECTORY "D:/CVSNT/GnuWin32/bin"
+	    WORKING_DIRECTORY "/GnuWin32/bin"
             DEPENDS ${_in})
 
 	LIST(APPEND CPP_SOURCE ${_out})
@@ -213,7 +213,7 @@ SET(WX_INCLUDE_PATH
     /cvsbin/inc
 )
 
-SET(WX_SUBDIR_NAME "vc9")
+SET(WX_SUBDIR_NAME "vc7")
 # 1310 is Microsoft Visual Studio 2003 .NET, Visual C++ 7.x
 # 1400 is Microsoft Visual Studio 2005, Visual C++ 8.0
 # 1500 is Microsoft Visual C++ 2008, Visual C++ 9.0

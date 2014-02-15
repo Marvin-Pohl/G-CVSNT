@@ -3,7 +3,7 @@
 // Purpose:     font management for ports that don't have their own
 // Author:      Vaclav Slavik
 // Created:     2006-11-18
-// RCS-ID:      $Id: fontmgr.h,v 1.1 2012/03/04 01:07:50 aliot Exp $
+// RCS-ID:      $Id: fontmgr.h,v 1.3 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) 2001-2002 SciTech Software, Inc. (www.scitechsoft.com)
 //              (c) 2006 REA Elektronik GmbH
 // Licence:     wxWindows licence

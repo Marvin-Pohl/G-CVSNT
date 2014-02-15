@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     10/3/2006 2:28:21 PM
-// RCS-ID:      $Id: richtextindentspage.h,v 1.1 2012/03/04 01:07:50 aliot Exp $
+// RCS-ID:      $Id: richtextindentspage.h,v 1.3 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

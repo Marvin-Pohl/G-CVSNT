@@ -5,7 +5,7 @@
 // Modified by:
 // Created:     14/4/2006
 // Copyright:   (c) Vadim Zeitlin, Francesco Montorsi
-// RCS-ID:      $Id: clrpickerg.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: clrpickerg.h,v 1.3 2010/12/27 19:40:30 bullestock Exp $
 // Licence:     wxWindows Licence
 /////////////////////////////////////////////////////////////////////////////
 

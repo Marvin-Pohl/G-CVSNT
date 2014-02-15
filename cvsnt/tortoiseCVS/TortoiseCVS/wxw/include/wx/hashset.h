@@ -4,7 +4,7 @@
 // Author:      Mattia Barbon
 // Modified by:
 // Created:     11/08/2003
-// RCS-ID:      $Id: hashset.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: hashset.h,v 1.11 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Mattia Barbon
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 // Author:      Gilles Depeyrot
 // Modified by:
 // Created:     22.01.02
-// RCS-ID:      $Id: wx_pb.h,v 1.1 2012/03/04 01:07:22 aliot Exp $
+// RCS-ID:      $Id: wx_pb.h,v 1.5 2010/12/27 19:41:13 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     01/02/97
-// RCS-ID:      $Id: slidrmsw.h,v 1.1 2012/03/04 01:07:43 aliot Exp $
+// RCS-ID:      $Id: slidrmsw.h,v 1.13 2005/03/31 20:25:21 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

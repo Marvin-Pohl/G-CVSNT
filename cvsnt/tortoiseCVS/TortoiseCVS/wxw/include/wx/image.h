@@ -2,7 +2,7 @@
 // Name:        wx/image.h
 // Purpose:     wxImage class
 // Author:      Robert Roebling
-// RCS-ID:      $Id: image.h,v 1.1 2012/03/04 01:07:25 aliot Exp $
+// RCS-ID:      $Id: image.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Robert Roebling
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

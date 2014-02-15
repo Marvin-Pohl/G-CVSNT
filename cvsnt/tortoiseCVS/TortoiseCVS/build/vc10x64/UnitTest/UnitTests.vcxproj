@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{821F2E6A-3488-40C2-B6CD-C6C5F22D9D05}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>UnitTests</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UnitTests.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UnitTests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UnitTests.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UnitTests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UnitTests.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UnitTests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UnitTests.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UnitTests</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CVSGlue\Debug\CVSGlue.lib;..\cvstree\Debug\cvstree.lib;..\Utils\Debug\Utils.lib;..\CppUnit\Debug\cppunit.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core64.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;wininet.lib;winmm.lib;ws2_32.lib;gdiplus.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/Debug/UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/Debug/UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CVSGlue\Release\CVSGlue.lib;..\cvstree\Release\cvstree.lib;..\Utils\Release\Utils.lib;..\CppUnit\Release\cppunit.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;wininet.lib;winmm.lib;ws2_32.lib;gdiplus.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/Release/UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/Release/UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CVSGlue\MinSizeRel\CVSGlue.lib;..\cvstree\MinSizeRel\cvstree.lib;..\Utils\MinSizeRel\Utils.lib;..\CppUnit\MinSizeRel\cppunit.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;wininet.lib;winmm.lib;ws2_32.lib;gdiplus.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/MinSizeRel/UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/MinSizeRel/UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\CVSGlue\RelWithDebInfo\CVSGlue.lib;..\cvstree\RelWithDebInfo\cvstree.lib;..\Utils\RelWithDebInfo\Utils.lib;..\CppUnit\RelWithDebInfo\cppunit.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib;comctl32.lib;rpcrt4.lib;shlwapi.lib;wininet.lib;winmm.lib;ws2_32.lib;gdiplus.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/RelWithDebInfo/UnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/tortoiseCVS/TortoiseCVS/build/vc10x64/UnitTest/RelWithDebInfo/UnitTests.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\Test\UnitTests\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\UnitTest\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\DialogsWxw\AboutDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\AddFilesDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\AnnotateDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\AnnotateListCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\BranchTagDlg.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CheckQueryDlg.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CheckoutDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CheckoutOptionsPage.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ChooseFile.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CommandDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CommitDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ConflictDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ConflictListDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CreditsDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\CvsRootListCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\EditDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\EditorListDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\EditorListListCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExplorerMenu.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtComboBox.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtListCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtSplitterWindow.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtStaticText.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ExtTextCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\FilenameText.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\FindDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\GraphDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\GraphLogData.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\GraphSettingsDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\HistoryDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\HistoryTreeCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\IconSetDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\InfoPanel.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\LogConfigDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\LoginDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\MakeModuleBasicsPage.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\MakeModuleDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\MakePatchDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\MergeDlg.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\MessageDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ModuleBasicsPage.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ModuleBasicsPageEventHandler.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\PreferencesDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ProgressDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ReleaseDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\RenameDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\RepoTreeCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\ResizeDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\RevOptions.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\SwitchDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\TagValidator.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\UpdateDlg.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\WxwHelpers.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\YesNoAllDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\YesNoDialog.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\treelistctrl.cpp"  />
+    <ClCompile Include="..\..\..\src\DialogsWxw\wxInitialTipTextCtrl.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\Annotation.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\ConflictParser.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\DirectoryGroup.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\ThreadSafeProgress.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoiseAct.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoiseActUtils.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoiseActVerbs.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoiseParams.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoisePreferences.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\TortoiseTip.cpp"  />
+    <ClCompile Include="..\..\..\src\TortoiseAct\WebLog.cpp"  />
+    <ClCompile Include="..\..\..\src\cvsgui\cvsgui_process.cpp"  />
+    <ClCompile Include="..\..\..\src\cvsgui\cvsgui_wire.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\WxWMainStub.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\StdAfx.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\Suite.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestCvsLogParser.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestCVSRoot.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestCVSStatus.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestDirList.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestDirectoryGroups.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\TestTortoiseActUtils.cpp"  />
+    <ClCompile Include="..\..\..\src\Test\UnitTests\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/CVSGlue/CVSGlue.vcxproj">
+      <Project>2989CA09-D3FF-46E7-AA96-17374BA49F51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/Utils/Utils.vcxproj">
+      <Project>C3C94043-4C6C-483B-AD15-3EBE5EC58C6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/ZERO_CHECK.vcxproj">
+      <Project>65EDC4E4-FF49-4923-8DC2-33A8364E977C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/CppUnit/cppunit.vcxproj">
+      <Project>EC8D855C-C367-4461-84B9-A891D507A23A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/cvstree/cvstree.vcxproj">
+      <Project>3DD3315F-2BF6-4F1E-84C5-0387015F950C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

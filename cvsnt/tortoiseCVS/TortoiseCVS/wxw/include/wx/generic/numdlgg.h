@@ -4,7 +4,7 @@
 // Author:      John Labenski
 // Modified by:
 // Created:     07.02.04 (extracted from textdlgg.cpp)
-// RCS-ID:      $Id: numdlgg.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: numdlgg.h,v 1.10 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) wxWidgets team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

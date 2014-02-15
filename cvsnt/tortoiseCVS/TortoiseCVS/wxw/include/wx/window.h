@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by: Ron Lee
 // Created:     01/02/97
-// RCS-ID:      $Id: window.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+// RCS-ID:      $Id: window.h,v 1.23 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Vadim Zeitlin
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

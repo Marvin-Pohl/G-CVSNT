@@ -4,7 +4,7 @@
 // Author:      Mattia Barbon
 // Modified by:
 // Created:     17.07.02
-// RCS-ID:      $Id: msgout.h,v 1.1 2012/03/04 01:07:26 aliot Exp $
+// RCS-ID:      $Id: msgout.h,v 1.16 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) Mattia Barbon
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Header: /cvs/cvsnt/tortoiseCVS/po/TortoiseCVS/checkconsistency.pl,v 1.1 2012/03/04 01:09:09 aliot Exp $
+# $Header: /cvsroot-fuse/tortoisecvs/po/TortoiseCVS/checkconsistency.pl,v 1.2 2004/11/22 21:21:12 bullestock Exp $
 # 
 # Summary:
 #   This perl script reads the english po file and retrieves all the msgid's.
@@ -9,9 +9,6 @@
 #   or empty.
 # 
 # $Log: checkconsistency.pl,v $
-# Revision 1.1  2012/03/04 01:09:09  aliot
-# initial revision
-#
 # Revision 1.2  2004/11/22 21:21:12  bullestock
 # Updated from source.
 #

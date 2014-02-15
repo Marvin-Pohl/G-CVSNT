@@ -4,7 +4,7 @@
  * Author:      Joel Farley, Ove Kåven
  * Modified by: Vadim Zeitlin, Robert Roebling, Ron Lee
  * Created:     1998/06/12
- * RCS-ID:      $Id: wxchar.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+ * RCS-ID:      $Id: wxchar.h,v 1.23 2010/12/27 19:39:48 bullestock Exp $
  * Copyright:   (c) 1998-2006 wxWidgets dev team
  * Licence:     wxWindows licence
  */

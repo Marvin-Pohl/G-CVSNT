@@ -4,7 +4,7 @@
 // Author:      Julian Smart and others
 // Modified by:
 // Created:     01/02/97
-// RCS-ID:      $Id: cmndata.h,v 1.1 2012/03/04 01:07:23 aliot Exp $
+// RCS-ID:      $Id: cmndata.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c)
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

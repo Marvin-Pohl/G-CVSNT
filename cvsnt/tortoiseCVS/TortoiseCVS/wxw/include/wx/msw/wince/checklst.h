@@ -4,7 +4,7 @@
 // Author:      Wlodzimierz ABX Skiba
 // Modified by:
 // Created:     30.10.2005
-// RCS-ID:      $Id: checklst.h,v 1.1 2012/03/04 01:07:49 aliot Exp $
+// RCS-ID:      $Id: checklst.h,v 1.2 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) Wlodzimierz Skiba
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

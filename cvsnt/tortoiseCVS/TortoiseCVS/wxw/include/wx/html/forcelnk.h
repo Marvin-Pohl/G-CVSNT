@@ -2,7 +2,7 @@
 // Name:        forcelnk.h
 // Purpose:     see bellow
 // Author:      Vaclav Slavik
-// RCS-ID:      $Id: forcelnk.h,v 1.1 2012/03/04 01:07:41 aliot Exp $
+// RCS-ID:      $Id: forcelnk.h,v 1.21 2010/12/27 19:40:39 bullestock Exp $
 // Copyright:   (c) Vaclav Slavik
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

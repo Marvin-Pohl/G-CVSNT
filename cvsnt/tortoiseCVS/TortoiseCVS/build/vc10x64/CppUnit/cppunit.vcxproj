@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EC8D855C-C367-4461-84B9-A891D507A23A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cppunit</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cppunit.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cppunit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cppunit.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cppunit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cppunit.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cppunit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cppunit.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cppunit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\tools\cppunit\src\cppunit\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc10x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\tortoiseCVS\TortoiseCVS\build\vc10x64\CppUnit\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\AdditionalMessage.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Asserter.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\BriefTestProgressListener.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\CompilerOutputter.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\DefaultProtector.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\DynamicLibraryManager.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\DynamicLibraryManagerException.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Exception.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Message.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\PlugInManager.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\PlugInParameters.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Protector.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\ProtectorChain.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\RepeatedTest.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\SourceLine.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\StringTools.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\SynchronizedObject.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Test.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestAssert.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestCase.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestCaseDecorator.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestComposite.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestDecorator.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestFactoryRegistry.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestFailure.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestLeaf.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestNamer.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestPath.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestPlugInDefaultImpl.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestResult.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestResultCollector.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestRunner.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestSetUp.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestSuccessListener.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestSuite.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TestSuiteBuilderContext.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TextOutputter.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TextTestProgressListener.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TextTestResult.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TextTestRunner.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\TypeInfoHelper.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\Win32DynamicLibraryManager.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\XmlDocument.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\XmlElement.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\XmlOutputter.cpp"  />
+    <ClCompile Include="..\..\..\tools\cppunit\src\cppunit\XmlOutputterHook.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/tortoiseCVS/TortoiseCVS/build/vc10x64/ZERO_CHECK.vcxproj">
+      <Project>65EDC4E4-FF49-4923-8DC2-33A8364E977C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

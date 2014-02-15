@@ -1,6 +1,6 @@
 /* utility functions for `patch' */
 
-/* $Id: util.h,v 1.1 2012/03/04 01:06:58 aliot Exp $ */
+/* $Id: util.h,v 1.4 2006/11/09 21:32:21 bullestock Exp $ */
 
 /* An upper bound on the print length of a signed decimal line number.
    Add one for the sign.  */

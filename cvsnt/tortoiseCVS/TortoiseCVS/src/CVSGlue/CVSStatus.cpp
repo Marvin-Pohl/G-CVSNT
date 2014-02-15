@@ -1699,218 +1699,92 @@ wxString CVSStatus::FileStatusString(FileStatus fileStatus)
 #ifndef NOTORTOISELIB
 
 // Return true if this file's extension is one of the known 'binary' types.
-static bool IsBinaryExtension(const std::string& filename, CVSStatus::FileOptions &fo)
+static bool IsBinaryExtension(const std::string& filename)
 {
-   struct BinExt
+   static const char * apchExtensions[] =
    {
-     const char *ext;
-     int cmp;
-   };
-   static const BinExt apchExtensions[] =
-   {
-      {"lib", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"exe", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dll", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"DDS", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dds", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"tga" , CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dag" , CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dag_ser", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dag_vc" , CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dag_gf2", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"png", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"hdr", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"bmp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dlu", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"wav", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"WAV", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"ttf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"max", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pm", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"lm", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"l2d", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"rt", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"scn", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"sob", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"ps", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"tr", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"a2d", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"cam", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"vid", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"doc", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"gz", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"path", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pdl", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pdb", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dtx", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"sfo", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"xdb", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"xex", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"elf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"self", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"r16", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"r32", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"height", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"res", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"xls", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"jar", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"class", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"frt", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"exp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"drv", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"fev", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"yup", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"psd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"tm", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"rel", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pcm", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"zz", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"cof", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"vad", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"aif", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"tf2", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dphys", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"cached", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"fla", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"mll", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"rff", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"sff", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pdf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"tmd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"m", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"pll", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"3dd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"nd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"sd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"kd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"gdp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"mma", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"mms", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"mmt", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-
-      {"dat", CVSStatus::foBinaryDiff},
-      {"DAT", CVSStatus::foBinaryDiff},
-      {"fsb", CVSStatus::foBinaryDiff},
-      {"sdat", CVSStatus::foBinaryDiff},
-      {"ddsx", CVSStatus::foBinaryDiff},
-      {"DDSX", CVSStatus::foBinaryDiff},
-      {"bin", CVSStatus::foBinaryDiff},
-      {"grp", CVSStatus::foBinaryDiff},
-      {"jpg", CVSStatus::foBinaryDiff},
-      {"JPG", CVSStatus::foBinaryDiff},
-      {"jpeg", CVSStatus::foBinaryDiff},
-      {"gif", CVSStatus::foBinaryDiff},
-      {"avi", CVSStatus::foBinaryDiff},
-      {"AVI", CVSStatus::foBinaryDiff},
-      {"ogg", CVSStatus::foBinaryDiff},
-      {"OGG", CVSStatus::foBinaryDiff},
-      {"ogv", CVSStatus::foBinaryDiff},
-      {"ogm", CVSStatus::foBinaryDiff},
-      {"OGM", CVSStatus::foBinaryDiff},
-      {"pam", CVSStatus::foBinaryDiff},
-      {"wmv", CVSStatus::foBinaryDiff},
-      {"PAM", CVSStatus::foBinaryDiff},
-      {"WMV", CVSStatus::foBinaryDiff},
-      {"TIF", CVSStatus::foBinaryDiff},
-      {"tif", CVSStatus::foBinaryDiff},
-      {"zip", CVSStatus::foBinaryDiff},
-      {"rar", CVSStatus::foBinaryDiff},
-      {"chm", CVSStatus::foBinaryDiff},
-      {"xlsx", CVSStatus::foBinaryDiff},
-      {"docx", CVSStatus::foBinaryDiff},
-      {"ods", CVSStatus::foBinaryDiff},
-      {"odt", CVSStatus::foBinaryDiff},
-      {"swf", CVSStatus::foBinaryDiff},
-      {"unrt", CVSStatus::foBinaryDiff},
-      {"nxrt", CVSStatus::foBinaryDiff},
-      {"ptv", CVSStatus::foBinaryDiff},
-      {"pk", CVSStatus::foBinaryDiff},
-      {"ico", 0},
-
-      {"a", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                      // UNIX archive (static library)
-      {"ai", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                     // Adobe Illustrator
-      {"au", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                     // UNIX sound file
-      {"bin", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Binary data
-      {"bmp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows bitmap
-      {"bpl", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Borland C++ Builder
-      {"chi", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Compressed HTML index
-      {"class", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                  // Java byte code
-      {"com", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // DOS executable
-      {"dat", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Data
-      {"db", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                     // Paradox or Berkeley database
-      {"dbf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"dcu", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Delphi unit
-      {"dcp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Delphi
-      {"doc", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Word document
-      {"dot", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Word template
-      {"dsn", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"eml", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Outlook Express email message
-      {"gif", CVSStatus::foBinaryDiff},                    // GIF
-      {"gz", CVSStatus::foBinaryDiff},                     // Gzipped file
-      {"hlp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows help file
-      {"ico", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Icon
-      {"ide", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Borland C project
-      {"iwz", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Install Shield project
-      {"jar", CVSStatus::foBinaryDiff},                    // Java archive
-      {"jfif", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"jpe", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // JPEG graphics file
-      {"jpeg", CVSStatus::foBinaryDiff},                   // JPEG graphics file
-      {"jpg", CVSStatus::foBinaryDiff},                    // JPEG graphics file
-      {"lnk", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Shell link
-      {"mpp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Project file
-      {"o", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                      // Object file
-      {"obj", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows object file
-      {"ool", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Object Outline configuration file
-      {"pcx", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // PCX graphics file
-      {"pdf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Adobe Portable Document Format
-      {"pif", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows PIF
-      {"png", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Portable Network Graphics file
-      {"ppt", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft PowerPoint presentation
-      {"rar", CVSStatus::foBinaryDiff},                    // RAR archive
-      {"rtf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Rich Text Format
-      {"snd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Sound file
-      {"so", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                     // UNIX dynamic library
-      {"ssl", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},
-      {"sys", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows device driver
-      {"tar", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // UNIX tar archive
-      {"tgz", CVSStatus::foBinaryDiff},                    // UNIX gzipped tar archive
-      {"tif", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // TIFF graphics file
-      {"tiff", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                   // TIFF graphics file
-      {"vsd", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // (Microsoft) Visio drawing
-      {"wav", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows sound file
-      {"wmf", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Windows Meta File
-      {"wpj", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Project file
-      {"wri", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Write document
-      {"wsp", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Workspace file
-      {"xls", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                    // Microsoft Excel spreadsheet
-      {"z", CVSStatus::foCompressed|CVSStatus::foBinaryDiff},                      // Unix 'compress'
-      {"zip", CVSStatus::foBinaryDiff},                    // Zip/PKZIP file
-      {0,0}
+      "a",                      // UNIX archive (static library)
+      "ai",                     // Adobe Illustrator
+      "au",                     // UNIX sound file
+      "bin",                    // Binary data
+      "bmp",                    // Windows bitmap
+      "bpl",                    // Borland C++ Builder
+      "chm",                    // Microsoft Compressed HTML
+      "chi",                    // Microsoft Compressed HTML index
+      "class",                  // Java byte code
+      "com",                    // DOS executable
+      "dat",                    // Data
+      "db",                     // Paradox or Berkeley database
+      "dbf",
+      "dcu",                    // Delphi unit
+      "dcp",                    // Delphi
+      "dll",                    // Dynamically Linked Library
+      "doc",                    // Microsoft Word document
+      "dot",                    // Microsoft Word template
+      "dsn",
+      "eml",                    // Microsoft Outlook Express email message
+      "exe",                    // DOS/Windows executable
+      "gif",                    // GIF
+      "gz",                     // Gzipped file
+      "hlp",                    // Windows help file
+      "ico",                    // Icon
+      "ide",                    // Borland C project
+      "iwz",                    // Install Shield project
+      "jar",                    // Java archive
+      "jfif",
+      "jpe",                    // JPEG graphics file
+      "jpeg",                   // JPEG graphics file
+      "jpg",                    // JPEG graphics file
+      "lib",                    // Windows static library
+      "lnk",                    // Shell link
+      "mpp",                    // Microsoft Project file
+      "o",                      // Object file
+      "obj",                    // Windows object file
+      "ool",                    // Object Outline configuration file
+      "pcx",                    // PCX graphics file
+      "pdb",                    // Microsoft Visual Studio program database
+      "pdf",                    // Adobe Portable Document Format
+      "pif",                    // Windows PIF
+      "png",                    // Portable Network Graphics file
+      "ppt",                    // Microsoft PowerPoint presentation
+      "rar",                    // RAR archive
+      "rtf",                    // Rich Text Format
+      "snd",                    // Sound file
+      "so",                     // UNIX dynamic library
+      "ssl",
+      "sys",                    // Windows device driver
+      "tar",                    // UNIX tar archive
+      "tgz",                    // UNIX gzipped tar archive
+      "tif",                    // TIFF graphics file
+      "tiff",                   // TIFF graphics file
+      "vsd",                    // (Microsoft) Visio drawing
+      "wav",                    // Windows sound file
+      "wmf",                    // Windows Meta File
+      "wpj",                    // Project file
+      "wri",                    // Write document
+      "wsp",                    // Workspace file
+      "xls",                    // Microsoft Excel spreadsheet
+      "z",                      // Unix 'compress'
+      "zip",                    // Zip/PKZIP file
+      0
    };
 
    std::string::size_type lastdot = filename.find_last_of("."); 
+   bool fRes = false;
    if (lastdot != std::string::npos)
    {
       // The file has an extension
       std::string szExt = filename.substr(lastdot+1);
-      for (int i = 0; apchExtensions[i].ext; ++i)
+      for (int i = 0; apchExtensions[i]; ++i)
       {
-         if (!stricmp(apchExtensions[i].ext, szExt.c_str()))
+         if (!stricmp(apchExtensions[i], szExt.c_str()))
          {
-            fo = apchExtensions[i].cmp;
-            return true;
+            fRes = true;
+            break;
          }
       }
-   } else {
-     if (stricmp(filename.c_str(), "EBOOT.BIN") == 0 || 
-         stricmp(filename.c_str(), "PARAM.SFO") == 0)
-     {
-       fo = 0;
-       return true;
-     }
-
    }
-   return false;
+   return fRes;
 }
 
 // get first token
@@ -2452,7 +2326,7 @@ static int looks_unicode(const unsigned char *buf, int nbytes)
 
 
 static bool IsTextExtension(const std::string& filename);
-static bool IsBinaryExtension(const std::string& filename, CVSStatus::FileOptions &fo);
+static bool IsBinaryExtension(const std::string& filename);
 
 static int looks_ascii(const unsigned char *buf, int nbytes);
 static int looks_latin1(const unsigned char *buf, int nbytes);
@@ -2462,29 +2336,22 @@ static int looks_utf8(const unsigned char *buf, int nbytes);
 
 #define MAX_TEST_SIZE 4000
 
-bool CVSStatus::GuessFileFormat(const std::string& filename, CVSStatus::FileFormat &fmt, CVSStatus::FileOptions &fo)
+CVSStatus::FileFormat CVSStatus::GuessFileFormat(const std::string& filename)
 {
-   fmt = fmtUnknown;
-   fo = 0;
    if (IsDirectory(filename.c_str()))
-      return false;
+      return fmtUnknown;
 
-   FileFormat &result = fmt;
+   FileFormat result = fmtUnknown;
 
    if (IsUserDefinedType(filename, result))
    {
       if (result != fmtUnknown)
-         return true;
+         return result;
    }
    
    // First check for binary extension.
-   FileOptions binfo;
-   if (IsBinaryExtension(filename, binfo))
-   {
-      result = fmtBinary;
-      fo = binfo;
-      return true;
-    }
+   if (IsBinaryExtension(filename))
+      return fmtBinary;
    
    // Check if this ought to be text, regardless of contents.
    bool is_text = IsTextExtension(filename);
@@ -2495,38 +2362,30 @@ bool CVSStatus::GuessFileFormat(const std::string& filename, CVSStatus::FileForm
     
    FILE *samp = fopen(filename.c_str(), "rb");
    if (!samp)
-   {
-     result = fmtUnknown;
-     return false;
-   }
+      return fmtUnknown;
    
    int BufSize = static_cast<int>(fread(p, sizeof(char), MAX_TEST_SIZE, samp));
    fclose(samp);
    if (BufSize <= 0)
    {
       // File has zero length. If the extension indicates text, assume ASCII.
-      result = is_text ? fmtASCII : fmtUnknown;
-      return true;
+      return is_text ? fmtASCII : fmtUnknown;
    }
    
+   FileFormat format = fmtBinary;
    if (looks_ascii(p, BufSize))
-      result = fmtASCII;
+      format = fmtASCII;
    else if (looks_utf8(p, BufSize))
-      result = fmtASCII;
+      format = fmtASCII;
    else if (looks_unicode(p, BufSize))
-      result = fmtUnicode;
+      format = fmtUnicode;
    else if (looks_latin1(p, BufSize) ||
             looks_extended(p, BufSize))
-      result = fmtASCII;
+      format = fmtASCII;
    else if (is_text)
-      result = fmtASCII;  // Hmm...
-   else
-   {
-     result = fmtBinary;
-     fo = foBinaryDiff;
-   }
+      format = fmtASCII;  // Hmm...
     
-   return true;
+   return format;
 }
 
 

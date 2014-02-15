@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     29/01/98
-// RCS-ID:      $Id: utils.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+// RCS-ID:      $Id: utils.h,v 1.22 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 1998 Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

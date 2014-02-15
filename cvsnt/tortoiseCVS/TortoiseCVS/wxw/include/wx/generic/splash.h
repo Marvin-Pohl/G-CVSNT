@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     28/6/2000
-// RCS-ID:      $Id: splash.h,v 1.1 2012/03/04 01:07:39 aliot Exp $
+// RCS-ID:      $Id: splash.h,v 1.21 2010/12/27 19:40:30 bullestock Exp $
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows Licence
 /////////////////////////////////////////////////////////////////////////////

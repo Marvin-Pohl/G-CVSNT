@@ -2,7 +2,7 @@
 // Name:        wxhtml.h
 // Purpose:     wxHTML library for wxWidgets
 // Author:      Vaclav Slavik
-// RCS-ID:      $Id: wxhtml.h,v 1.1 2012/03/04 01:07:27 aliot Exp $
+// RCS-ID:      $Id: wxhtml.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 1999 Vaclav Slavik
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

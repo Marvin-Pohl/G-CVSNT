@@ -103,7 +103,7 @@ TortoiseWinDir=$(regtool get '\machine\Software\TortoiseCVS\RootDir' 2> /dev/nul
 TortoiseDir=$TortoiseWinDir
 if [ "$TortoiseDir" != "" ]
 then
-  TortoiseDir="`cygpath \"$TortoiseDir"`"
+  TortoiseDir="`cygpath \"$TortoiseDir\"`"
 fi
 
 CVS_EXT="\"$TortoiseWinDir\\tortoiseplink.exe\" -l \"%u\" \"%h\""

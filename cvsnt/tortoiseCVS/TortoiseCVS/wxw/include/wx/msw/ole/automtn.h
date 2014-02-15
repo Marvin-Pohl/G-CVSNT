@@ -4,7 +4,7 @@
 // Author:      Julian Smart
 // Modified by:
 // Created:     11/6/98
-// RCS-ID:      $Id: automtn.h,v 1.1 2012/03/04 01:07:49 aliot Exp $
+// RCS-ID:      $Id: automtn.h,v 1.20 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) 1998, Julian Smart
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

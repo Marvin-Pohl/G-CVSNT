@@ -17,7 +17,7 @@
 //                     databases operate the same in that respect
 //
 // Created:     9.96
-// RCS-ID:      $Id: db.h,v 1.1 2012/03/04 01:07:24 aliot Exp $
+// RCS-ID:      $Id: db.h,v 1.22 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 1996 Remstar International, Inc.
 // Licence:     wxWindows licence
 ///////////////////////////////////////////////////////////////////////////////

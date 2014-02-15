@@ -1,5 +1,6 @@
 #!/bin/bash
 # usage: setresourceversion resfile dotversion extra
+shopt -s igncr #
 RESFILE=$1
 DOTVERSION=$2
 EXTRA=$3
@@ -15,5 +16,3 @@ sed -e "s/FILEVERSION .*/FILEVERSION $COMMAVERSION/" \
     -e "s/FileVersion\".*/FileVersion\", \"$DOTVERSION\\\\0\"/" \
     -e "s/ProductVersion\".*/ProductVersion\", \"$DOTVERSION\\\\0\"/" \
     < $RESFILE.bak > $RESFILE.rc
-
-

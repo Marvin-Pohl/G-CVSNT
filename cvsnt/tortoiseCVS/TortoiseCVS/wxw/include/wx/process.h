@@ -4,7 +4,7 @@
 // Author:      Guilhem Lavaux
 // Modified by: Vadim Zeitlin to check error codes, added Detach() method
 // Created:     24/06/98
-// RCS-ID:      $Id: process.h,v 1.1 2012/03/04 01:07:26 aliot Exp $
+// RCS-ID:      $Id: process.h,v 1.21 2010/12/27 19:39:48 bullestock Exp $
 // Copyright:   (c) 1998 Guilhem Lavaux
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

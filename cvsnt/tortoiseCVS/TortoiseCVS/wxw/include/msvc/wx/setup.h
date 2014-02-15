@@ -4,7 +4,7 @@
 // Author:      Vadim Zeitlin
 // Modified by:
 // Created:     2004-12-12
-// RCS-ID:      $Id: setup.h,v 1.1 2012/03/04 01:07:22 aliot Exp $
+// RCS-ID:      $Id: setup.h,v 1.4 2011/01/03 14:57:55 bullestock Exp $
 // Copyright:   (c) 2004 Vadim Zeitlin <vadim@wxwindows.org>
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////

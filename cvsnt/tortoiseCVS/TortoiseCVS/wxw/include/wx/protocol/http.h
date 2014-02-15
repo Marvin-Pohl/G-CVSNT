@@ -4,7 +4,7 @@
 // Author:      Guilhem Lavaux
 // Modified by: Simo Virokannas (authentication, Dec 2005)
 // Created:     August 1997
-// RCS-ID:      $Id: http.h,v 1.1 2012/03/04 01:07:50 aliot Exp $
+// RCS-ID:      $Id: http.h,v 1.21 2010/12/27 19:40:53 bullestock Exp $
 // Copyright:   (c) 1997, 1998 Guilhem Lavaux
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
