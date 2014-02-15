@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c7a1de78-7266-4ab3-a83d-c70f7286cf20}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0857ac38-994d-44ea-a309-fda8a0623a5e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{01c4e11f-d224-46f8-9864-6bcd7828bb41}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="be_cvsnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console_cvsnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\int64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\ldisc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\pageantc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plink_cvsnt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\portfwd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\pproxy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\proxy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\ssh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshaes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshblowf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshbn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshcrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshcrcda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshdes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshdh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshdss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshdssg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshmd5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshprime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshpubk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshrand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshrsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshrsag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshsh512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshsha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\sshzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\tree234.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\wildcard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\windefs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\winmisc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\winnet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\winstore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="putty\x11fwd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="putty\int64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\ldisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plink_cvsnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\proxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\putty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\puttymem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\ssh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\storage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="putty\tree234.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="putty\plink.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\plink.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

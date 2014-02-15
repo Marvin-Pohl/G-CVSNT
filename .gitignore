@@ -23,5 +23,9 @@ log2
 cvsnt/cvsnt-2.5.05.3744/Winrel/
 cvsnt/cvsnt-2.5.05.3744/WinDebug/**
 *.ncb
-**/Release/**
-**/tmp/**
+
+cvsnt/cvsnt-2.5.05.3744/ReleaseWin32/
+cvsnt/cvsnt-2.5.05.3744/tmp/ReleaseWin32/
+**/win32/Release/*
+**/win32/Release/*
+Release/

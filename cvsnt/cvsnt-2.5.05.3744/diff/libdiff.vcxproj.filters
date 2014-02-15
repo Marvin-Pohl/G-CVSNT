@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{33789996-7381-422c-9db0-d36cc5ccdee6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analyze.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diff3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ifdef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="side.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unicodeapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="diffrun.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unicodeapi.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Library Support">
+      <UniqueIdentifier>{4f11ef8d-8649-47ec-beb0-8046e1c9598c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Support\Source Files">
+      <UniqueIdentifier>{392e0ad4-ea65-4c7c-9a79-1480a64a2863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Support\Header Files">
+      <UniqueIdentifier>{3827ec76-1b2e-4d45-81d8-a53d695ae44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{3c064716-2e8c-434d-9bf1-db9d586e8af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf">
+      <UniqueIdentifier>{0149274d-bd9f-4192-9953-1c66b9dc4a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf\Header Files">
+      <UniqueIdentifier>{d6a3dd81-3b16-495c-a160-2f04182e3a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf\Source Files">
+      <UniqueIdentifier>{ac53b702-469e-418e-b5d9-dd147b698399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Dialogs">
+      <UniqueIdentifier>{cfc0c453-7208-4ef5-bf14-71ff580c75ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Dialogs\Header Files">
+      <UniqueIdentifier>{6ed73d02-6a83-4945-913d-92e072cf141b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Dialogs\Source Files">
+      <UniqueIdentifier>{2120d87c-7a75-4cc6-b538-3ca45efacbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sandbox">
+      <UniqueIdentifier>{bbe5bb4f-dfb1-43d8-af94-d9334c0c378d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sandbox\Source Files">
+      <UniqueIdentifier>{fa161278-6900-4a98-a0fc-e18331b48986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sandbox\Header Files">
+      <UniqueIdentifier>{1c300482-0c5e-4dc1-a7e3-fb58cd190a29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cvsgui.cpp">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\GlobalSettings.cpp">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolLibrary.cpp">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scramble.cpp">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger_i.c">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerLibrary.cpp">
+      <Filter>Library Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerInfo.cpp">
+      <Filter>Zeroconf\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\CvsCommonDialogs.cpp">
+      <Filter>Common Dialogs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\InfoPanel.cpp">
+      <Filter>Common Dialogs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RootSplitter.cpp">
+      <Filter>Common Dialogs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConnection.cpp">
+      <Filter>Common Dialogs\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntriesParser.cpp">
+      <Filter>Sandbox\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cvsgui.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalSettings.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_interface.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_interface.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolLibrary.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scramble.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger_interface.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerLibrary.h">
+      <Filter>Library Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerInfo.h">
+      <Filter>Zeroconf\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\CvsCommonDialogs.h">
+      <Filter>Common Dialogs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\InfoPanel.h">
+      <Filter>Common Dialogs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RootSplitter.h">
+      <Filter>Common Dialogs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnection.h">
+      <Filter>Common Dialogs\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntriesParser.h">
+      <Filter>Sandbox\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsroot.h" />
+    <ClInclude Include="cvstools.h" />
+    <ClInclude Include="export.h" />
+    <ClInclude Include="win32\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\cvstools.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\cvstools.rc2">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="win32\res\fldrclos.ico" />
+    <None Include="win32\res\ico00001.ico" />
+    <None Include="win32\res\ico00002.ico" />
+    <None Include="win32\res\ico00003.ico" />
+    <None Include="win32\res\ico00004.ico" />
+    <None Include="win32\res\ico00005.ico" />
+    <None Include="win32\res\ico00006.ico" />
+    <None Include="win32\res\icon1.ico" />
+    <None Include="win32\res\icon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="win32\trigger.idl">
+      <Filter>Resources</Filter>
+    </Midl>
+  </ItemGroup>
+</Project>

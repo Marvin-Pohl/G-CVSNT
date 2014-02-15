@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generic Objects">
+      <UniqueIdentifier>{9b0bdf3d-51d9-4972-b7d4-3a7991ffb248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Objects\Source Files">
+      <UniqueIdentifier>{d30ca3b3-5028-43da-91d9-c1ba523407d7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Generic Objects\Header Files">
+      <UniqueIdentifier>{923a87b4-b4f8-4321-8a4d-67e47653f5d3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Standard file API">
+      <UniqueIdentifier>{c9e32c34-5766-4112-84b3-3ccb77c0cb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard file API\Source Files">
+      <UniqueIdentifier>{78ec5a5f-6a65-40a3-96a6-0587231904ac}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Standard file API\Header Files">
+      <UniqueIdentifier>{3552e297-7f54-457f-8263-e12083602b54}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Version Control">
+      <UniqueIdentifier>{770382c8-fda9-41c4-a839-4cf876b7dfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Version Control\Source Files">
+      <UniqueIdentifier>{f6852a58-1c4b-4aec-8226-953e60e3b8ba}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Version Control\Header Files">
+      <UniqueIdentifier>{13ef9b8e-2ed7-492e-a6b1-78bf2ccfd800}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Database Access">
+      <UniqueIdentifier>{ca272d0b-e698-4a4f-b870-1475b64ac553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database Access\Source Files">
+      <UniqueIdentifier>{3ae56ad8-09a3-48bd-b609-e74495456830}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Database Access\Header Files">
+      <UniqueIdentifier>{67308af3-35b1-4a44-a7a7-a4d7b9cda02a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{76990673-bd80-48f4-ad61-57eaa79e2e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Source Files">
+      <UniqueIdentifier>{b8117ca5-d199-44f8-8226-5929526b02b0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="lib\Header Files">
+      <UniqueIdentifier>{a1ae116b-7e0c-4de2-b30c-8c0c2b34795f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Socket API">
+      <UniqueIdentifier>{e15ddd56-7c2a-4358-9874-244fc4e9be44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket API\Source Files">
+      <UniqueIdentifier>{982a6406-f651-4cd1-8375-262c02e71182}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Socket API\Header Files">
+      <UniqueIdentifier>{0b7213c7-07b1-4beb-9fc8-034af0f39d35}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Diff">
+      <UniqueIdentifier>{fda4b83e-5a7d-4163-a72f-8014699d7965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diff\Source Files">
+      <UniqueIdentifier>{113ce30f-25ea-4686-ab75-bcbceef44fdb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Diff\Header Files">
+      <UniqueIdentifier>{afac52d7-e931-44e6-9774-151b7b669776}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Xml API">
+      <UniqueIdentifier>{20dc6702-ca9e-47c4-9eff-41c760f43338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml API\Source Files">
+      <UniqueIdentifier>{6e2a2f38-7445-4c88-bf10-78a3669e0a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml API\Header Files">
+      <UniqueIdentifier>{c79cf984-0c60-4be6-8c63-0ffb926cef1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf">
+      <UniqueIdentifier>{d69a39da-dfd8-4aab-889e-7f82a6b4a180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf\Source Files">
+      <UniqueIdentifier>{a052a2e3-d387-4e86-8945-66ebc62adbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zeroconf\Source Files\Header Files">
+      <UniqueIdentifier>{f194ff22-fcb0-46a5-81fa-373136f854aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5c01dc9c-fff3-46c1-920a-6a5abbfd905c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library access">
+      <UniqueIdentifier>{32af00dd-ead8-44df-9872-f22584837476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library access\Source Files">
+      <UniqueIdentifier>{0339c926-01b5-4699-9f6f-398ad1227981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library access\Header Files">
+      <UniqueIdentifier>{0633d66e-88db-4212-a1d0-def10c3fd75d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codepage.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvs_string.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetOptions.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5calc.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\RunFile.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerIO.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenLine.cpp">
+      <Filter>Generic Objects\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\DirectoryAccess.cpp">
+      <Filter>Standard file API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\FileAccess.cpp">
+      <Filter>Standard file API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\FileCompat.cpp">
+      <Filter>Standard file API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitPath.cpp">
+      <Filter>Standard file API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TagDate.cpp">
+      <Filter>Version Control\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlConnection.cpp">
+      <Filter>Database Access\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlConnectionInformation.cpp">
+      <Filter>Database Access\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlRecordset.cpp">
+      <Filter>Database Access\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlVariant.cpp">
+      <Filter>Database Access\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fncmp.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\fnmatch.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\getdate.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\getmode.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\GetOsVersion.cpp">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\md5.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\md5crypt.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\ndir.cpp">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\timegm.c">
+      <Filter>lib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\autoproxy.cpp">
+      <Filter>Socket API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\DnsApi.cpp">
+      <Filter>Socket API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\HttpSocket.cpp">
+      <Filter>Socket API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SocketIO.cpp">
+      <Filter>Socket API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\SSPIHandler.cpp">
+      <Filter>Socket API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diff\DiffBase.cpp">
+      <Filter>Diff\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="diff\StringDiff.cpp">
+      <Filter>Diff\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpcBase.cpp">
+      <Filter>Xml API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlNode.cpp">
+      <Filter>Xml API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xmltree.cpp">
+      <Filter>Xml API\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mdns.cpp">
+      <Filter>Zeroconf\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zeroconf.cpp">
+      <Filter>Zeroconf\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\LibraryAccess.cpp">
+      <Filter>Library access\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Codepage.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvs_smartptr.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvs_string.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GetOptions.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\manifest.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5calc.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RunFile.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerIO.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenLine.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryAccess.h">
+      <Filter>Standard file API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAccess.h">
+      <Filter>Standard file API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitPath.h">
+      <Filter>Standard file API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEntry.h">
+      <Filter>Version Control\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TagDate.h">
+      <Filter>Version Control\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlConnection.h">
+      <Filter>Database Access\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlConnectionInformation.h">
+      <Filter>Database Access\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlRecordset.h">
+      <Filter>Database Access\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlVariant.h">
+      <Filter>Database Access\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\api_system.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\config.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fncmp.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\fnmatch.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\getdate.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\getmode.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\GetOsVersion.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\md5.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\md5crypt.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\ndir.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\timegm.h">
+      <Filter>lib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DnsApi.h">
+      <Filter>Socket API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSocket.h">
+      <Filter>Socket API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketIO.h">
+      <Filter>Socket API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPIHandler.h">
+      <Filter>Socket API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diff\DiffBase.h">
+      <Filter>Diff\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diff\StringDiff.h">
+      <Filter>Diff\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpcBase.h">
+      <Filter>Xml API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlNode.h">
+      <Filter>Xml API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTree.h">
+      <Filter>Xml API\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mdns.h">
+      <Filter>Zeroconf\Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zeroconf.h">
+      <Filter>Zeroconf\Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryAccess.h">
+      <Filter>Library access\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsapi.h">
+      <Filter>Generic Objects\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\cvsapi.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\cvsapi.rc2">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="win32\ServiceMsg.mc">
+      <Filter>Resources</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
