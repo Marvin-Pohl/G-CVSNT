@@ -36,3 +36,5 @@ cvsnt/cvsnt-2.5.05.3744/tmp/ReleaseWin32/
 Release/
 
 Debug/
+*.ipch
+*.ncb
