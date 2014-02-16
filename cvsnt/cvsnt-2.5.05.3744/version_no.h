@@ -28,14 +28,14 @@
 
 // cvsnt version
 #define CVSNT_PRODUCT_MAJOR 2
-#define CVSNT_PRODUCT_MINOR 5
+#define CVSNT_PRODUCT_MINOR 6
 #define CVSNT_PRODUCT_PATCHLEVEL 05
 #define CVSNT_PRODUCT_PATCHLEVELS 5
 #include "build.h"
-#define CVSNT_PRODUCT_NAME " (Gan + [Gaijin -kB/-kBz patch])"
+#define CVSNT_PRODUCT_NAME " IAS Version"
 
 // usually something like "RC 9"
-//#define CVSNT_SPECIAL_BUILD "RC 2"
+#define CVSNT_SPECIAL_BUILD "RC "
 
 #ifdef RC_INVOKED
 //#define CVSNT_SPECIAL_BUILD "Prerelease"
