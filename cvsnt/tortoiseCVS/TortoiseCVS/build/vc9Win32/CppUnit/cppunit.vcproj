@@ -78,7 +78,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\Debug\cppunit.lib"
+				OutputFile="Debug\cppunit.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -157,7 +157,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\Release\cppunit.lib"
+				OutputFile="Release\cppunit.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -236,7 +236,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\MinSizeRel\cppunit.lib"
+				OutputFile="MinSizeRel\cppunit.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -316,7 +316,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\RelWithDebInfo\cppunit.lib"
+				OutputFile="RelWithDebInfo\cppunit.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"

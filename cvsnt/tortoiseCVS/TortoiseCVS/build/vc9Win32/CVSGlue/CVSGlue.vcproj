@@ -78,7 +78,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CVSGlue\Debug\CVSGlue.lib"
+				OutputFile="Debug\CVSGlue.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -157,7 +157,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CVSGlue\Release\CVSGlue.lib"
+				OutputFile="Release\CVSGlue.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -236,7 +236,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CVSGlue\MinSizeRel\CVSGlue.lib"
+				OutputFile="MinSizeRel\CVSGlue.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -316,7 +316,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\CVSGlue\RelWithDebInfo\CVSGlue.lib"
+				OutputFile="RelWithDebInfo\CVSGlue.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"

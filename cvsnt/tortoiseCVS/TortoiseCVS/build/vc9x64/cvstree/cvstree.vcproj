@@ -78,7 +78,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9x64\cvstree\Debug\cvstree.lib"
+				OutputFile="Debug\cvstree.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -157,7 +157,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9x64\cvstree\Release\cvstree.lib"
+				OutputFile="Release\cvstree.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -236,7 +236,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9x64\cvstree\MinSizeRel\cvstree.lib"
+				OutputFile="MinSizeRel\cvstree.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -316,7 +316,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9x64\cvstree\RelWithDebInfo\cvstree.lib"
+				OutputFile="RelWithDebInfo\cvstree.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"

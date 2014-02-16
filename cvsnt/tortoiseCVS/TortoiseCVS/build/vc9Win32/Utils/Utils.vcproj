@@ -78,7 +78,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\Utils\Debug\Utils.lib"
+				OutputFile="Debug\Utils.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -157,7 +157,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\Utils\Release\Utils.lib"
+				OutputFile="Release\Utils.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -236,7 +236,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\Utils\MinSizeRel\Utils.lib"
+				OutputFile="MinSizeRel\Utils.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -316,7 +316,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="$(SolutionDir)..\vc9Win32\Utils\RelWithDebInfo\Utils.lib"
+				OutputFile="RelWithDebInfo\Utils.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
