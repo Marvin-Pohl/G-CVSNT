@@ -20,7 +20,7 @@
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="Debug/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -31,11 +31,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -63,7 +63,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="Release/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -74,11 +74,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -106,7 +106,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="MinSizeRel/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -117,11 +117,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -149,7 +149,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -160,11 +160,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -188,15 +188,15 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			Name="CMake Rules"
 			Filter="">
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule">
+				RelativePath="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32">
@@ -204,8 +204,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|Win32">
@@ -213,8 +213,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|Win32">
@@ -222,8 +222,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

@@ -38,7 +38,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -53,7 +53,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				InlineFunctionExpansion="0"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
 				ExceptionHandling="1"
 				BasicRuntimeChecks="3"
@@ -71,7 +71,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -80,16 +80,16 @@
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib ..\cvstree\Debug\cvstree.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Debug\TortoiseAct.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib ..\cvstree\Debug\cvstree.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseAct\Debug\TortoiseAct.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="\cvsbin\lib\$(OutDir),\cvsbin\lib"
 				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Debug/TortoiseAct.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseAct\Debug/TortoiseAct.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Debug\TortoiseAct.lib"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseAct\Debug\TortoiseAct.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -137,7 +137,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -152,7 +152,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="2"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -168,7 +168,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -177,15 +177,15 @@
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib ..\cvstree\Release\cvstree.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Release\TortoiseAct.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib ..\cvstree\Release\cvstree.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseAct\Release\TortoiseAct.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="\cvsbin\lib\$(OutDir),\cvsbin\lib"
 				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Release/TortoiseAct.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseAct\Release/TortoiseAct.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\Release\TortoiseAct.lib"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseAct\Release\TortoiseAct.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -233,7 +233,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -248,7 +248,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="1"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -264,7 +264,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -273,14 +273,14 @@
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib ..\cvstree\MinSizeRel\cvstree.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\MinSizeRel\TortoiseAct.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib ..\cvstree\MinSizeRel\cvstree.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseAct\MinSizeRel\TortoiseAct.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories="\cvsbin\lib\$(OutDir),\cvsbin\lib"
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\MinSizeRel/TortoiseAct.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseAct\MinSizeRel/TortoiseAct.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\MinSizeRel\TortoiseAct.lib"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseAct\MinSizeRel\TortoiseAct.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -328,7 +328,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -343,7 +343,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
 				ExceptionHandling="1"
 				RuntimeLibrary="2"
@@ -360,7 +360,7 @@
 			<Tool
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\.;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseAct\..;$(SolutionDir)..\..\src\TortoiseAct\.;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -369,15 +369,15 @@
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib ..\cvstree\RelWithDebInfo\cvstree.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\RelWithDebInfo\TortoiseAct.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib ..\cvstree\RelWithDebInfo\cvstree.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseAct\RelWithDebInfo\TortoiseAct.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories="\cvsbin\lib\$(OutDir),\cvsbin\lib"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\RelWithDebInfo/TortoiseAct.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseAct\RelWithDebInfo/TortoiseAct.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\RelWithDebInfo\TortoiseAct.lib"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseAct\RelWithDebInfo\TortoiseAct.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
@@ -410,27 +410,27 @@
 			Name="Source Files"
 			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\Annotation.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\Annotation.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ConflictParser.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ConflictParser.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\DirectoryGroup.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\DirectoryGroup.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\StdAfx.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\StdAfx.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ThreadSafeProgress.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ThreadSafeProgress.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseAct.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseAct.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -466,31 +466,31 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseAct.rc"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseAct.rc"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActUtils.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActUtils.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActVerbs.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActVerbs.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseParams.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseParams.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoisePreferences.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoisePreferences.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseTip.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseTip.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\WebLog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\WebLog.cpp"
 				>
 			</File>
 		</Filter>
@@ -498,47 +498,47 @@
 			Name="Header Files"
 			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\Annotation.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\Annotation.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ConflictParser.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ConflictParser.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\DirectoryGroup.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\DirectoryGroup.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ThreadSafeProgress.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ThreadSafeProgress.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseAct.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseAct.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActUtils.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActUtils.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActVerbs.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActVerbs.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseParams.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseParams.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoisePreferences.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoisePreferences.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseTip.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseTip.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\WebLog.h"
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\WebLog.h"
 				>
 			</File>
 		</Filter>
@@ -546,11 +546,11 @@
 			Name="CVSGui"
 			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\cvsgui\cvsgui_process.cpp"
+				RelativePath="$(SolutionDir)..\..\src\cvsgui\cvsgui_process.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\cvsgui\cvsgui_wire.cpp"
+				RelativePath="$(SolutionDir)..\..\src\cvsgui\cvsgui_wire.cpp"
 				>
 			</File>
 		</Filter>
@@ -558,522 +558,474 @@
 			Name="Dialogs"
 			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AboutDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AboutDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AboutDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AboutDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AddFilesDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AddFilesDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AddFilesDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AddFilesDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateListCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateListCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateListCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateListCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\BranchTagDlg.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\BranchTagDlg.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\BranchTagDlg.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\BranchTagDlg.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutOptionsPage.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutOptionsPage.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutOptionsPage.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutOptionsPage.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckQueryDlg.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckQueryDlg.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckQueryDlg.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckQueryDlg.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ChooseFile.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ChooseFile.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ChooseFile.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ChooseFile.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommandDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommandDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommandDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommandDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommitDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommitDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommitDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommitDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ConflictDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ConflictDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ConflictListDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ConflictListDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ConflictListDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ConflictListDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CreditsDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CreditsDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CreditsDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CreditsDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CvsRootListCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CvsRootListCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CvsRootListCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CvsRootListCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListListCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListListCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListListCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListListCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExplorerMenu.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExplorerMenu.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExplorerMenu.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExplorerMenu.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtComboBox.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtComboBox.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtComboBox.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtComboBox.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtListCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtListCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtListCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtListCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtSplitterWindow.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtSplitterWindow.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtSplitterWindow.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtSplitterWindow.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtStaticText.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtStaticText.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtStaticText.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtStaticText.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtTextCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtTextCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtTextCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtTextCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FilenameText.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FilenameText.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FilenameText.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FilenameText.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FindDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FindDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FindDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FindDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphLogData.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphLogData.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphLogData.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphLogData.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphSettingsDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphSettingsDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphSettingsDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphSettingsDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryTreeCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryTreeCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryTreeCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryTreeCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\IconSetDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\IconSetDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\IconSetDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\IconSetDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\InfoPanel.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\InfoPanel.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\InfoPanel.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\InfoPanel.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LogConfigDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LogConfigDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LogConfigDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LogConfigDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LoginDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LoginDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LoginDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LoginDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleBasicsPage.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleBasicsPage.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleBasicsPage.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleBasicsPage.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakePatchDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakePatchDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakePatchDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakePatchDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MergeDlg.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MergeDlg.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MergeDlg.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MergeDlg.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MessageDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MessageDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MessageDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MessageDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPage.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPage.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPage.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPage.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPageEventHandler.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPageEventHandler.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPageEventHandler.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPageEventHandler.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\PreferencesDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\PreferencesDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\PreferencesDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\PreferencesDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ProgressDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ProgressDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ProgressDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ProgressDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ReleaseDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ReleaseDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ReleaseDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ReleaseDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RenameDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RenameDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RenameDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RenameDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RepoTreeCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RepoTreeCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RepoTreeCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RepoTreeCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ResizeDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ResizeDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ResizeDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ResizeDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RevOptions.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RevOptions.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RevOptions.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RevOptions.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\SwitchDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\SwitchDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\SwitchDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\SwitchDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\TagValidator.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\TagValidator.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\TagValidator.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\TagValidator.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\treelistctrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\treelistctrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\treelistctrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\treelistctrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\UpdateDlg.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\UpdateDlg.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\UpdateDlg.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\UpdateDlg.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\wxInitialTipTextCtrl.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\wxInitialTipTextCtrl.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\wxInitialTipTextCtrl.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\wxInitialTipTextCtrl.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\WxwHelpers.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\WxwHelpers.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\WxwHelpers.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\WxwHelpers.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\WxwMain.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\WxwMain.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\WxwMain.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\WxwMain.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoAllDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoAllDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoAllDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoAllDialog.h"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoDialog.cpp"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoDialog.cpp"
 				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoDialog.h"
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoDialog.h"
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt"
-			>
-			<FileConfiguration
-				Name="Debug|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseAct/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseAct/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="MinSizeRel|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseAct/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="RelWithDebInfo|Win32"
-				>
-				<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseAct/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseAct\CMakeFiles\generate.stamp"
-				/>
-			</FileConfiguration>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>

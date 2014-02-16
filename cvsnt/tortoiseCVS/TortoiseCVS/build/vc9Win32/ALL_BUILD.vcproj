@@ -177,60 +177,60 @@
 	</Configurations>
 	<Files>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD">
+				RelativePath="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD">
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt">
+				RelativePath="$(SolutionDir)..\CMakeLists.txt">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/build/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../build/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\CMakeLists.txt;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;$(SolutionDir)..\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/build/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../build/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\CMakeLists.txt;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;$(SolutionDir)..\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/build/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../build/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\CMakeLists.txt;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;$(SolutionDir)..\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/build/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;C:\tortoiseCVS\TortoiseCVS\build\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../build/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\CMakeLists.txt;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeSystem.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCCompiler.cmake;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;$(SolutionDir)..\vc9Win32\CMakeFiles\2.8.12.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;$(SolutionDir)..\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 			</File>
 		<Filter
 			Name="CMake Rules"
 			Filter="">
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD.rule">
+				RelativePath="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD.rule">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32">
@@ -238,8 +238,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|Win32">
@@ -247,8 +247,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|Win32">
@@ -256,8 +256,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

@@ -470,10 +470,10 @@
                                 <RegistryValue Id="reg4751EC472C6B7B7BE257BE46DF1D0FFD" Root="HKCR" Key="TypeLib\{2BDF7A65-0BFE-4B1A-9205-9AB900C7D0DA}\1.0\FLAGS" Value="0" Type="string" />
                             </Component>
                             <Component Id="Documentation" Guid="{FC974E48-971D-49EE-B2CF-151B92DE30A5}">
-                                <File Id="COPYING" Name="COPYING" KeyPath="yes" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\COPYING" />
+                                <File Id="COPYING" Name="COPYING" KeyPath="yes" DiskId="1" Source="cvsnt-2.5.05.3744\COPYING" />
                             </Component>
                             <Component Id="ReleaseNotes" Guid="{BD093E95-5823-4313-937D-A12CFA39A2FF}">
-                                <File Id="relnotes.rtf" Name="relnotes.rtf" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\relnotes.rtf" />
+                                <File Id="relnotes.rtf" Name="relnotes.rtf" DiskId="1" Source="cvsnt-2.5.05.3744\relnotes.rtf" />
                                 <RegistryValue Id="keyReleaseNotes" Root="HKCU" Key="SOFTWARE\March Hare Software Ltd\Msi" Name="ReleaseNotes" Value="1" Type="string" KeyPath="yes" />
                                 <Shortcut Id="relnotes.lnk" Directory="CvsntDocumentationFolder" Name="Release notes.lnk" ShortName="bz-jlkxc.lnk" Target="[#relnotes.rtf]" />
                             </Component>
@@ -485,8 +485,8 @@
                                 <File Id="cvsservice.dll" Name="cvsservice.dll" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\cvsservice.dll" />
                             </Component>
                             <Component Id="CommandLineIniFiles" Guid="{81446A48-4FB4-4C15-9ED3-D21C4557FDA8}" NeverOverwrite="yes">
-                                <File Id="extnt.ini" Name="extnt.ini" KeyPath="yes" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\extnt.ini" />
-                                <File Id="protocol_map.ini" Name="protocol_map.ini" ShortName="g8cefz6c.ini" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\protocol_map.ini" />
+                                <File Id="extnt.ini" Name="extnt.ini" KeyPath="yes" DiskId="1" Source="cvsnt-2.5.05.3744\extnt.ini" />
+                                <File Id="protocol_map.ini" Name="protocol_map.ini" ShortName="g8cefz6c.ini" DiskId="1" Source="cvsnt-2.5.05.3744\protocol_map.ini" />
                             </Component>
                             <Component Id="CommandLineLock" Guid="{C5E7B7C6-4FCD-4F44-8245-BD95AB1F1498}">
                                 <File Id="cvslock.exe" Name="cvslock.exe" KeyPath="yes" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\cvslock.exe" />
@@ -496,7 +496,7 @@
                             </Component>
                             <Component Id="CvsntStartMenuDoc" Guid="{398ACBE2-6BF2-4532-B9D8-41E598F58005}">
                                 <File Id="cvsntwiki.url" Name="cvsnt-wiki.url" ShortName="2gco9qtl.url" DiskId="1" Source="msi_tools\extras\File\cvsntwiki.url" />
-                                <File Id="cvs.chm" Name="cvs.chm" DiskId="1" Source="cvsnt-2.5.05.3744\ReleaseWin32\cvs.chm" />
+                                <File Id="cvs.chm" Name="cvs.chm" DiskId="1" Source="cvsnt-2.5.05.3744\cvs.chm" />
                                 <RegistryValue Id="keyCvsntStartMenuDoc" Root="HKCU" Key="SOFTWARE\March Hare Software Ltd\Msi" Name="CvsntStartMenuDoc" Value="1" Type="string" KeyPath="yes" />
                                 <Shortcut Id="cvsntope.lnk" Directory="CvsntDocumentationFolder" Name="CVSNT Opensource Support.lnk" ShortName="g8jh5m92.lnk" Target="[#cvsntwiki.url]" />
                             </Component>

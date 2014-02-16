@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="cppunit"
 	ProjectGUID="{1700BF47-0133-4948-80B0-7626375AE9F9}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,51 +21,80 @@
 			IntermediateDirectory="cppunit.dir\Debug"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\Debug\cppunit.lib"/>
+				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\Debug\cppunit.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -68,49 +102,78 @@
 			IntermediateDirectory="cppunit.dir\Release"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\Release\cppunit.lib"/>
+				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\Release\cppunit.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -118,49 +181,78 @@
 			IntermediateDirectory="cppunit.dir\MinSizeRel"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\MinSizeRel\cppunit.lib"/>
+				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\MinSizeRel\cppunit.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -168,232 +260,270 @@
 			IntermediateDirectory="cppunit.dir\RelWithDebInfo"
 			ConfigurationType="4"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\..\..\include;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\tools\cppunit\src\cppunit\..\..\include;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLibrarianTool"
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\RelWithDebInfo\cppunit.lib"/>
+				OutputFile="$(SolutionDir)..\vc9Win32\CppUnit\RelWithDebInfo\cppunit.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/tools/cppunit/src/cppunit/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\CppUnit\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\AdditionalMessage.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\AdditionalMessage.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Asserter.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Asserter.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\BriefTestProgressListener.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\BriefTestProgressListener.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\CompilerOutputter.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\CompilerOutputter.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\DefaultProtector.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\DefaultProtector.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\DynamicLibraryManager.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\DynamicLibraryManager.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\DynamicLibraryManagerException.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\DynamicLibraryManagerException.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Exception.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Exception.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Message.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Message.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\PlugInManager.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\PlugInManager.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\PlugInParameters.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\PlugInParameters.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Protector.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Protector.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\ProtectorChain.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\ProtectorChain.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\RepeatedTest.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\RepeatedTest.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\SourceLine.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\SourceLine.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\StringTools.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\StringTools.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\SynchronizedObject.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\SynchronizedObject.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Test.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Test.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestAssert.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestAssert.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestCase.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestCase.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestCaseDecorator.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestCaseDecorator.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestComposite.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestComposite.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestDecorator.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestDecorator.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestFactoryRegistry.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestFactoryRegistry.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestFailure.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestFailure.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestLeaf.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestLeaf.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestNamer.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestNamer.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestPath.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestPath.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestPlugInDefaultImpl.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestPlugInDefaultImpl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestResult.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestResult.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestResultCollector.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestResultCollector.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestRunner.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestRunner.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestSetUp.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestSetUp.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestSuccessListener.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestSuccessListener.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestSuite.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestSuite.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TestSuiteBuilderContext.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TestSuiteBuilderContext.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TextOutputter.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TextOutputter.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TextTestProgressListener.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TextTestProgressListener.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TextTestResult.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TextTestResult.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TextTestRunner.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TextTestRunner.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\TypeInfoHelper.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\TypeInfoHelper.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\Win32DynamicLibraryManager.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\Win32DynamicLibraryManager.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\XmlDocument.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\XmlDocument.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\XmlElement.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\XmlElement.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\XmlOutputter.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\XmlOutputter.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\tools\cppunit\src\cppunit\XmlOutputterHook.cpp">
+				RelativePath="$(SolutionDir)..\..\tools\cppunit\src\cppunit\XmlOutputterHook.cpp"
+				>
 			</File>
 		</Filter>
 	</Files>

@@ -20,7 +20,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				AssemblerListingLocation="Debug/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
@@ -30,11 +30,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -61,7 +61,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				AssemblerListingLocation="Release/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
@@ -71,11 +71,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -102,7 +102,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				AssemblerListingLocation="MinSizeRel/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
@@ -112,11 +112,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -143,7 +143,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
@@ -153,11 +153,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				PreprocessorDefinitions="NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -177,60 +177,60 @@
 	</Configurations>
 	<Files>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD">
+				RelativePath="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD">
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt">
+				RelativePath="$(SolutionDir)..\..\src\PostInst\CMakeLists.txt">
 				<FileConfiguration
 					Name="Debug|x64">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/PostInst/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9x64 --check-stamp-file $(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|x64">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/PostInst/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9x64 --check-stamp-file $(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|x64">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/PostInst/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9x64 --check-stamp-file $(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|x64">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/PostInst/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9x64 --check-stamp-file $(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;$(SolutionDir)..\..\src\PostInst\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 			</File>
 		<Filter
 			Name="CMake Rules"
 			Filter="">
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule">
+				RelativePath="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule">
 				<FileConfiguration
 					Name="Debug|x64">
 					<Tool
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|x64">
@@ -238,8 +238,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|x64">
@@ -247,8 +247,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|x64">
@@ -256,8 +256,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9x64\PostInst\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

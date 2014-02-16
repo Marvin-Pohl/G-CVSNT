@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="UnitTests"
 	ProjectGUID="{BE485FA1-E8BF-4D07-AC03-D8A3452DAC58}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,62 +21,97 @@
 			IntermediateDirectory="UnitTests.dir\Debug"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\cvstree\Debug\cvstree.lib ..\Utils\Debug\Utils.lib ..\CppUnit\Debug\cppunit.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Debug\UnitTests.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\cvstree\Debug\cvstree.lib ..\Utils\Debug\Utils.lib ..\CppUnit\Debug\cppunit.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\UnitTest\Debug\UnitTests.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Debug/UnitTests.pdb"
-				GenerateDebugInformation="TRUE"
+				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\UnitTest\Debug/UnitTests.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Debug\UnitTests.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\UnitTest\Debug\UnitTests.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -79,59 +119,94 @@
 			IntermediateDirectory="UnitTests.dir\Release"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\cvstree\Release\cvstree.lib ..\Utils\Release\Utils.lib ..\CppUnit\Release\cppunit.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Release\UnitTests.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\cvstree\Release\cvstree.lib ..\Utils\Release\Utils.lib ..\CppUnit\Release\cppunit.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\UnitTest\Release\UnitTests.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Release/UnitTests.pdb"
+				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\UnitTest\Release/UnitTests.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\Release\UnitTests.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\UnitTest\Release\UnitTests.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -139,58 +214,93 @@
 			IntermediateDirectory="UnitTests.dir\MinSizeRel"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\cvstree\MinSizeRel\cvstree.lib ..\Utils\MinSizeRel\Utils.lib ..\CppUnit\MinSizeRel\cppunit.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\MinSizeRel\UnitTests.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\cvstree\MinSizeRel\cvstree.lib ..\Utils\MinSizeRel\Utils.lib ..\CppUnit\MinSizeRel\cppunit.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\UnitTest\MinSizeRel\UnitTests.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\MinSizeRel/UnitTests.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\UnitTest\MinSizeRel/UnitTests.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\MinSizeRel\UnitTests.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\UnitTest\MinSizeRel\UnitTests.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -198,347 +308,426 @@
 			IntermediateDirectory="UnitTests.dir\RelWithDebInfo"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..\..\tools\cppunit\include;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\..\..;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\Test\UnitTests\..\..\..\tools\cppunit\include;$(SolutionDir)..\..\src\Test\UnitTests\..\..;$(SolutionDir)..\..\src\Test\UnitTests\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\cvstree\RelWithDebInfo\cvstree.lib ..\Utils\RelWithDebInfo\Utils.lib ..\CppUnit\RelWithDebInfo\cppunit.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\RelWithDebInfo\UnitTests.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\cvstree\RelWithDebInfo\cvstree.lib ..\Utils\RelWithDebInfo\Utils.lib ..\CppUnit\RelWithDebInfo\cppunit.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib rpcrt4.lib shlwapi.lib wininet.lib winmm.lib ws2_32.lib gdiplus.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\UnitTest\RelWithDebInfo\UnitTests.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\RelWithDebInfo/UnitTests.pdb"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\UnitTest\RelWithDebInfo/UnitTests.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\RelWithDebInfo\UnitTests.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\UnitTest\RelWithDebInfo\UnitTests.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/Test/UnitTests/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\UnitTest\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AboutDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AboutDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AddFilesDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AddFilesDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\AnnotateListCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\AnnotateListCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\BranchTagDlg.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\Annotation.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckQueryDlg.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\BranchTagDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CheckoutOptionsPage.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckoutOptionsPage.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ChooseFile.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CheckQueryDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommandDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ChooseFile.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CommitDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommandDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ConflictDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CommitDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ConflictListDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ConflictDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CreditsDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ConflictListDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\CvsRootListCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ConflictParser.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CreditsDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\cvsgui\cvsgui_process.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\EditorListListCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\cvsgui\cvsgui_wire.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExplorerMenu.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\CvsRootListCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtComboBox.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\DirectoryGroup.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtListCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtSplitterWindow.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\EditorListListCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtStaticText.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExplorerMenu.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ExtTextCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtComboBox.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FilenameText.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\FindDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtListCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtSplitterWindow.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphLogData.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtStaticText.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\GraphSettingsDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ExtTextCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FilenameText.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\HistoryTreeCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\FindDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\IconSetDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\InfoPanel.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphLogData.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LogConfigDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\GraphSettingsDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\LoginDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleBasicsPage.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\HistoryTreeCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakeModuleDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\IconSetDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MakePatchDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\InfoPanel.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MergeDlg.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LogConfigDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\MessageDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\LoginDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPage.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\main.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ModuleBasicsPageEventHandler.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleBasicsPage.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\PreferencesDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakeModuleDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ProgressDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MakePatchDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ReleaseDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MergeDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RenameDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\MessageDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RepoTreeCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPage.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\ResizeDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ModuleBasicsPageEventHandler.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\RevOptions.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\PreferencesDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\SwitchDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ProgressDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\TagValidator.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ReleaseDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\UpdateDlg.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RenameDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\WxwHelpers.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RepoTreeCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoAllDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\ResizeDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\YesNoDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\RevOptions.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\treelistctrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\StdAfx.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\DialogsWxw\wxInitialTipTextCtrl.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\Suite.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\Annotation.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\SwitchDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ConflictParser.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\TagValidator.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\DirectoryGroup.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestCvsLogParser.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\ThreadSafeProgress.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestCVSRoot.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseAct.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestCVSStatus.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestDirectoryGroups.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActVerbs.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestDirList.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseParams.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\UnitTests\TestTortoiseActUtils.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoisePreferences.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\ThreadSafeProgress.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseTip.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseAct.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\WebLog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActUtils.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\cvsgui\cvsgui_process.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActVerbs.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\cvsgui\cvsgui_wire.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseParams.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\WxWMainStub.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoisePreferences.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\StdAfx.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseTip.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\Suite.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\treelistctrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestCvsLogParser.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\UpdateDlg.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestCVSRoot.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\WebLog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestCVSStatus.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\wxInitialTipTextCtrl.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestDirList.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\WxwHelpers.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestDirectoryGroups.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Test\WxWMainStub.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\TestTortoiseActUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoAllDialog.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Test\UnitTests\main.cpp">
+				RelativePath="$(SolutionDir)..\..\src\DialogsWxw\YesNoDialog.cpp"
+				>
 			</File>
 		</Filter>
 	</Files>

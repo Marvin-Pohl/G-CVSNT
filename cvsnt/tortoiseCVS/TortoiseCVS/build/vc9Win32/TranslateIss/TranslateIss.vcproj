@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="TranslateIss"
 	ProjectGUID="{F9574899-3AAA-4A55-B7DB-08A7BBC90989}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,62 +21,97 @@
 			IntermediateDirectory="TranslateIss.dir\Debug"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Debug\TranslateIss.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TranslateIss\Debug\TranslateIss.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Debug/TranslateIss.pdb"
-				GenerateDebugInformation="TRUE"
+				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TranslateIss\Debug/TranslateIss.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Debug\TranslateIss.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TranslateIss\Debug\TranslateIss.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -79,59 +119,94 @@
 			IntermediateDirectory="TranslateIss.dir\Release"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Release\TranslateIss.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TranslateIss\Release\TranslateIss.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Release/TranslateIss.pdb"
+				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TranslateIss\Release/TranslateIss.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\Release\TranslateIss.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TranslateIss\Release\TranslateIss.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -139,58 +214,93 @@
 			IntermediateDirectory="TranslateIss.dir\MinSizeRel"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\MinSizeRel\TranslateIss.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TranslateIss\MinSizeRel\TranslateIss.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\MinSizeRel/TranslateIss.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TranslateIss\MinSizeRel/TranslateIss.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\MinSizeRel\TranslateIss.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TranslateIss\MinSizeRel\TranslateIss.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -198,107 +308,106 @@
 			IntermediateDirectory="TranslateIss.dir\RelWithDebInfo"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TranslateIss\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\RelWithDebInfo\TranslateIss.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TranslateIss\RelWithDebInfo\TranslateIss.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\RelWithDebInfo/TranslateIss.pdb"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TranslateIss\RelWithDebInfo/TranslateIss.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\RelWithDebInfo\TranslateIss.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TranslateIss\RelWithDebInfo\TranslateIss.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TranslateIss/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TranslateIss/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TranslateIss/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TranslateIss/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TranslateIss\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TranslateIss\TranslateIss.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TranslateIss\TranslateIss.cpp"
+				>
 			</File>
 		</Filter>
 	</Files>

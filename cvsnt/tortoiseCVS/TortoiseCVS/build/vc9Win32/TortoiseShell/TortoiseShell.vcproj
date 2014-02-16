@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="TortoiseShell"
 	ProjectGUID="{FCAC3FCC-EB29-428B-AE2F-7E9E790C30FC}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,61 +21,96 @@
 			IntermediateDirectory="TortoiseShell.dir\Debug"
 			ConfigurationType="2"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;;TortoiseShell_EXPORTS"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;;TortoiseShell_EXPORTS"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;;TortoiseShell_EXPORTS"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;;TortoiseShell_EXPORTS"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Debug\TortoiseShell.dll"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Debug\CVSGlue.lib ..\Utils\Debug\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseShell\Debug\TortoiseShell.dll"
 				Version="0.0"
 				LinkIncremental="2"
-				ModuleDefinitionFile="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.def"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Debug\TortoiseShell.pdb"
-				GenerateDebugInformation="TRUE"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Debug\TortoiseShell.lib"/>
+				ModuleDefinitionFile="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.def"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseShell\Debug\TortoiseShell.pdb"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseShell\Debug\TortoiseShell.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -78,58 +118,93 @@
 			IntermediateDirectory="TortoiseShell.dir\Release"
 			ConfigurationType="2"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;;TortoiseShell_EXPORTS"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;;TortoiseShell_EXPORTS"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;;TortoiseShell_EXPORTS"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;;TortoiseShell_EXPORTS"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Release\TortoiseShell.dll"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\Release\CVSGlue.lib ..\Utils\Release\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseShell\Release\TortoiseShell.dll"
 				Version="0.0"
 				LinkIncremental="1"
-				ModuleDefinitionFile="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.def"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Release\TortoiseShell.pdb"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\Release\TortoiseShell.lib"/>
+				ModuleDefinitionFile="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.def"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseShell\Release\TortoiseShell.pdb"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseShell\Release\TortoiseShell.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -137,58 +212,93 @@
 			IntermediateDirectory="TortoiseShell.dir\MinSizeRel"
 			ConfigurationType="2"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;TortoiseShell_EXPORTS"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;TortoiseShell_EXPORTS"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;TortoiseShell_EXPORTS"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;;TortoiseShell_EXPORTS"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.dll"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\MinSizeRel\CVSGlue.lib ..\Utils\MinSizeRel\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.dll"
 				Version="0.0"
 				LinkIncremental="1"
-				ModuleDefinitionFile="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.def"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.pdb"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.lib"/>
+				ModuleDefinitionFile="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.def"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.pdb"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseShell\MinSizeRel\TortoiseShell.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -196,851 +306,946 @@
 			IntermediateDirectory="TortoiseShell.dir\RelWithDebInfo"
 			ConfigurationType="2"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;TortoiseShell_EXPORTS"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;TortoiseShell_EXPORTS"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\..;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\.;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;TortoiseShell_EXPORTS"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;__WXMSW__;TORTOISESHELL;WINVER=0x0500;STRICT;HAVE_ERRNO_H;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;;TortoiseShell_EXPORTS"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\TortoiseShell\..;$(SolutionDir)..\..\src\TortoiseShell\.;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.dll"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\CVSGlue\RelWithDebInfo\CVSGlue.lib ..\Utils\RelWithDebInfo\Utils.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib comctl32.lib gdiplus.lib rpcrt4.lib shlwapi.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.dll"
 				Version="0.0"
 				LinkIncremental="2"
-				ModuleDefinitionFile="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.def"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.pdb"
-				GenerateDebugInformation="TRUE"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.lib"/>
+				ModuleDefinitionFile="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.def"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.pdb"
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoiseShell\RelWithDebInfo\TortoiseShell.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseShell/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseShell/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseShell/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoiseShell/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoiseShell\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\StdAfx.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\ColumnProvider.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="1"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="1"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="1"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="1"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\CVSRoot.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\ContextMenu.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\CVSStatus.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\CVSStatusShared.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\CrapLexer.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\CvsEntries.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\CvsIgnore.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\CvsEntries.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\Stat.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\getline.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\CvsIgnore.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\ContextMenus\DefaultMenus.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\ContextMenus\HasMenu.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\CVSRoot.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\ContextMenus\MenuDescription.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseAct\TortoiseActVerbs.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\CVSStatus.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\CrapLexer.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ColumnProvider.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\CVSStatusShared.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ContextMenu.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\IconOverlay.cpp">
+				RelativePath="$(SolutionDir)..\..\src\ContextMenus\DefaultMenus.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\PropSheet.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\QueryInfo.cpp">
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\getline.cpp"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
-					PrecompiledHeaderThrough="stdafx.h"
-					UsePrecompiledHeader="2"
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\ShellExt.def">
+				RelativePath="$(SolutionDir)..\..\src\ContextMenus\HasMenu.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoiseShell\TortoiseShell.rc">
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\IconOverlay.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\ContextMenus\MenuDescription.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\PropSheet.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\QueryInfo.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\ShellExt.def"
+				>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\CVSGlue\Stat.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\StdAfx.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseAct\TortoiseActVerbs.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="2"
+						PrecompiledHeaderThrough="stdafx.h"
+						PrecompiledHeaderFile="$(OutDir)/TortoiseShell.pch"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoiseShell\TortoiseShell.rc"
+				>
 			</File>
 		</Filter>
 	</Files>

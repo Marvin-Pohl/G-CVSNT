@@ -20,7 +20,7 @@
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				AssemblerListingLocation="Debug/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
@@ -30,11 +30,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -62,7 +62,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				AssemblerListingLocation="Release/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
@@ -72,11 +72,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -104,7 +104,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				AssemblerListingLocation="MinSizeRel/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
@@ -114,11 +114,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -146,7 +146,7 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
@@ -156,11 +156,11 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\CVSGlue\..;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\CVSGlue\..;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="3"
 				GenerateStublessProxies="TRUE"
@@ -184,15 +184,15 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 			Name="CMake Rules"
 			Filter="">
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule">
+				RelativePath="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule">
 				<FileConfiguration
 					Name="Debug|x64">
 					<Tool
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|x64">
@@ -200,8 +200,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|x64">
@@ -209,8 +209,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|x64">
@@ -218,8 +218,8 @@ CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\ctest.exe&quot; --force-
 					Name="VCCustomBuildTool"
 					Description=" "
 					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force.rule"
+					Outputs="$(SolutionDir)..\vc9x64\CVSGlue\CMakeFiles\RUN_TESTS_force"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

@@ -20,7 +20,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="Debug/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -31,11 +31,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -62,7 +62,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="Release/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -73,11 +73,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -104,7 +104,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="MinSizeRel/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -115,11 +115,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -146,7 +146,7 @@
 			CharacterSet="1">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				BufferSecurityCheck="FALSE"
 				ExceptionHandling="0"
@@ -157,11 +157,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				PreprocessorDefinitions="_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\..\CvsNt;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\src\RunTimeInstaller\..;$(SolutionDir)..\..\src\RunTimeInstaller\..\CvsNt;"
 				MkTypLibCompatible="FALSE"
 				TargetEnvironment="1"
 				GenerateStublessProxies="TRUE"
@@ -181,60 +181,60 @@
 	</Configurations>
 	<Files>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD">
+				RelativePath="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD">
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt">
+				RelativePath="$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/RunTimeInstaller/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/RunTimeInstaller/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/RunTimeInstaller/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/RunTimeInstaller/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/RunTimeInstaller/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/RunTimeInstaller/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/RunTimeInstaller/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\RunTimeInstaller\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
+					Description="Building Custom Rule $(SolutionDir)../../src/RunTimeInstaller/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -H$(SolutionDir)../../build -B$(SolutionDir)../../build/vc9Win32 --check-stamp-file $(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;$(SolutionDir)..\..\src\RunTimeInstaller\CMakeLists.txt;"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\generate.stamp"/>
 				</FileConfiguration>
 			</File>
 		<Filter
 			Name="CMake Rules"
 			Filter="">
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule">
+				RelativePath="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="Release|Win32">
@@ -242,8 +242,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="MinSizeRel|Win32">
@@ -251,8 +251,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 				<FileConfiguration
 					Name="RelWithDebInfo|Win32">
@@ -260,8 +260,8 @@
 					Name="VCCustomBuildTool"
 					Description="Build all projects"
 					CommandLine=""
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
+					AdditionalDependencies="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD.rule"
+					Outputs="$(SolutionDir)..\vc9Win32\RunTimeInstaller\CMakeFiles\ALL_BUILD"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

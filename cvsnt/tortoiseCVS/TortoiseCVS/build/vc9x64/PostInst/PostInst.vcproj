@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="PostInst"
 	ProjectGUID="{1B62B5C8-F073-444A-90E9-50716F150DDB}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="x64"/>
+			Name="x64"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|x64"
@@ -16,62 +21,97 @@
 			IntermediateDirectory="PostInst.dir\Debug"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="3"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:x64 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core64.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Debug\PostInst.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core64.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9x64\PostInst\Debug\PostInst.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Debug/PostInst.pdb"
-				GenerateDebugInformation="TRUE"
+				IgnoreDefaultLibraryNames="wxbase28ud_net.lib;wxbase28ud_xml.lib;wxexpatd.lib;wxjpegd.lib;wxmsw28ud_aui.lib;wxmsw28ud_html.lib;wxmsw28ud_media.lib;wxmsw28ud_qa.lib;wxmsw28ud_richtext.lib;wxmsw28ud_xrc.lib;wxpngd.lib;wxregexud.lib;wxtiffd.lib;wxzlibd.lib"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9x64\PostInst\Debug/PostInst.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Debug\PostInst.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9x64\PostInst\Debug\PostInst.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|x64"
@@ -79,59 +119,94 @@
 			IntermediateDirectory="PostInst.dir\Release"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="3"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:x64"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Release\PostInst.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9x64\PostInst\Release\PostInst.exe"
 				Version="0.0"
-				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Release/PostInst.pdb"
+				IgnoreDefaultLibraryNames="wxbase28u_net.lib;wxbase28u_xml.lib;wxexpat.lib;wxjpeg.lib;wxmsw28u_aui.lib;wxmsw28u_html.lib;wxmsw28u_media.lib;wxmsw28u_qa.lib;wxmsw28u_richtext.lib;wxmsw28u_xrc.lib;wxpng.lib;wxregexu.lib;wxtiff.lib;wxzlib.lib"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9x64\PostInst\Release/PostInst.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\Release\PostInst.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9x64\PostInst\Release\PostInst.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|x64"
@@ -139,58 +214,93 @@
 			IntermediateDirectory="PostInst.dir\MinSizeRel"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="3"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:x64"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\MinSizeRel\PostInst.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9x64\PostInst\MinSizeRel\PostInst.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\MinSizeRel/PostInst.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9x64\PostInst\MinSizeRel/PostInst.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\MinSizeRel\PostInst.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9x64\PostInst\MinSizeRel\PostInst.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|x64"
@@ -198,134 +308,142 @@
 			IntermediateDirectory="PostInst.dir\RelWithDebInfo"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="1">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;C:\tortoiseCVS\TortoiseCVS\src\PostInst\..;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="3"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;NOTRANSLATE;POSTINST;NO_DEBUG;_UNICODE;UNICODE;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;$(SolutionDir)..\..\src\PostInst\..;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:x64 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv64.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\RelWithDebInfo\PostInst.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv64.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core64.lib shlwapi.lib "
+				OutputFile="$(SolutionDir)..\vc9x64\PostInst\RelWithDebInfo\PostInst.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\RelWithDebInfo/PostInst.pdb"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9x64\PostInst\RelWithDebInfo/PostInst.pdb"
 				SubSystem="2"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\RelWithDebInfo\PostInst.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9x64\PostInst\RelWithDebInfo\PostInst.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|x64">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|x64">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|x64">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|x64">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/PostInst/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9x64 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\PostInst\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9x64\PostInst\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\OsVersion.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\OsVersion.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\PathUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\PathUtils.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\ShellUtils2.cpp">
+				RelativePath="$(SolutionDir)..\..\src\PostInst\PostInst.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\StringUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\ShellUtils2.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\SyncUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\PostInst\StdAfx.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\TortoiseException.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\StringUtils.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\TortoiseRegistry.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\SyncUtils.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\Utils\TortoiseUtils.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\TortoiseException.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\PostInst\PostInst.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\TortoiseRegistry.cpp"
+				>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\PostInst\StdAfx.cpp">
+				RelativePath="$(SolutionDir)..\..\src\Utils\TortoiseUtils.cpp"
+				>
 			</File>
 		</Filter>
 	</Files>

@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding = "Windows-1252"?>
+<?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="TortoisePlink"
 	ProjectGUID="{5B0A677B-8663-412A-B562-16ADCF78D5BC}"
-	Keyword="Win32Proj">
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
@@ -16,61 +21,96 @@
 			IntermediateDirectory="TortoisePlink.dir\Debug"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				AssemblerListingLocation="Debug/"
-				BasicRuntimeChecks="3"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="0"
-				Optimization="0"
-				RuntimeLibrary="3"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28ud.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28ud_core.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Debug\TortoisePlink.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28ud.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28ud_core.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoisePlink\Debug\TortoisePlink.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Debug/TortoisePlink.pdb"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoisePlink\Debug/TortoisePlink.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Debug\TortoisePlink.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoisePlink\Debug\TortoisePlink.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -78,58 +118,93 @@
 			IntermediateDirectory="TortoisePlink.dir\Release"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				AssemblerListingLocation="Release/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="2"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Release\TortoisePlink.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoisePlink\Release\TortoisePlink.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Release/TortoisePlink.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoisePlink\Release/TortoisePlink.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\Release\TortoisePlink.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoisePlink\Release\TortoisePlink.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -137,58 +212,93 @@
 			IntermediateDirectory="TortoisePlink.dir\MinSizeRel"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				AssemblerListingLocation="MinSizeRel/"
-				CompileAs="2"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="1"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\MinSizeRel\TortoisePlink.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoisePlink\MinSizeRel\TortoisePlink.exe"
 				Version="0.0"
 				LinkIncremental="1"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\MinSizeRel/TortoisePlink.pdb"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoisePlink\MinSizeRel/TortoisePlink.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\MinSizeRel\TortoisePlink.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoisePlink\MinSizeRel\TortoisePlink.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -196,1383 +306,1588 @@
 			IntermediateDirectory="TortoisePlink.dir\RelWithDebInfo"
 			ConfigurationType="1"
 			UseOfMFC="0"
-			ATLMinimizesCRunTimeLibraryUsage="FALSE"
-			CharacterSet="2">
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				CompileAs="2"
-				DebugInformationFormat="3"
-				ExceptionHandling="1"
-				InlineFunctionExpansion="1"
-				Optimization="2"
-				RuntimeLibrary="2"
-				RuntimeTypeInfo="TRUE"
-				WarningLevel="3"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include;C:\tortoiseCVS\TortoiseCVS\build\..\wxw\include\msvc;\cvsbin\inc;"
-				MkTypLibCompatible="FALSE"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				MkTypLibCompatible="false"
 				TargetEnvironment="1"
-				GenerateStublessProxies="TRUE"
+				GenerateStublessProxies="true"
 				TypeLibraryName="$(InputName).tlb"
 				OutputDirectory="$(IntDir)"
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ObjectFile="$(IntDir)\"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
 			<Tool
-				Name="VCPreLinkEventTool"/>
+				Name="VCManagedResourceCompilerTool"
+			/>
 			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HAVE_ERRNO_H;_NO_OLDNAMES;NO_MULTIMON;WIN32S_COMPAT;RELEASE=\&quot;0.56\&quot;;_MBCS;_DLL;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NON_CONFORMING_SWPRINTFS;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="$(SolutionDir)..\..\wxw\include;$(SolutionDir)..\..\wxw\include\msvc;\cvsbin\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
 			<Tool
 				Name="VCLinkerTool"
 				LinkLibraryDependencies="false"
 				AdditionalOptions=" /machine:X86 /debug"
-				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxbase28u.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_adv.lib C:\tortoiseCVS\TortoiseCVS\build\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
-				OutputFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\RelWithDebInfo\TortoisePlink.exe"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib $(SolutionDir)..\..\wxw\lib\vc9\wxbase28u.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_adv.lib $(SolutionDir)..\..\wxw\lib\vc9\wxmsw28u_core.lib ws2_32.lib "
+				OutputFile="$(SolutionDir)..\vc9Win32\TortoisePlink\RelWithDebInfo\TortoisePlink.exe"
 				Version="0.0"
 				LinkIncremental="2"
 				AdditionalLibraryDirectories=""
-				ProgramDatabaseFile="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\RelWithDebInfo/TortoisePlink.pdb"
-				GenerateDebugInformation="TRUE"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile="$(SolutionDir)..\vc9Win32\TortoisePlink\RelWithDebInfo/TortoisePlink.pdb"
 				SubSystem="1"
-				ImportLibrary="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\RelWithDebInfo\TortoisePlink.lib"/>
+				ImportLibrary="$(SolutionDir)..\vc9Win32\TortoisePlink\RelWithDebInfo\TortoisePlink.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PLINK.RC">
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoisePlink/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoisePlink/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoisePlink/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCustomBuildTool"
-					Description="Building Custom Rule C:/tortoiseCVS/TortoiseCVS/src/TortoisePlink/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HC:/tortoiseCVS/TortoiseCVS/build -BC:/tortoiseCVS/TortoiseCVS/build/vc9Win32 --check-stamp-file C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
-					AdditionalDependencies="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMakeLists.txt;"
-					Outputs="C:\tortoiseCVS\TortoiseCVS\build\vc9Win32\TortoisePlink\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
 		<Filter
 			Name="Source Files"
-			Filter="">
+			>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\BE_ALL.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\BE_ALL.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CMDLINE.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\CMDLINE.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CONSOLE.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\CPROXY.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\CONSOLE.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\LDISC.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\LOGGING.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\CPROXY.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\MISC.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\NOISE.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\LDISC.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PAGEANTC.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PLINK.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\LOGGING.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PORTFWD.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PPROXY.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\LoginDialog.cpp"
+				>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\MISC.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\PROXY.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\NOISE.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\RAW.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\RLOGIN.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PAGEANTC.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SETTINGS.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSH.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PLINK.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHAES.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHBLOWF.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PORTFWD.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHBN.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHCRC.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PPROXY.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHCRCDA.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHDES.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PROXY.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHDH.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHDSS.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\RAW.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHMD5.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHPUBK.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\RLOGIN.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHRAND.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHRSA.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SETTINGS.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHSH512.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHSHA.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSH.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\SSHZLIB.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\TELNET.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHAES.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\TREE234.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\VERSION.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHBLOWF.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\WILDCARD.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\WINDEFS.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHBN.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\WINMISC.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\WINNET.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHCRC.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\WINSTORE.C">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\X11FWD.C">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHCRCDA.C"
+				>
 				<FileConfiguration
-					Name="Debug|Win32">
+					Name="Debug|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32">
+					Name="Release|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
+					Name="MinSizeRel|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32">
+					Name="RelWithDebInfo|Win32"
+					>
 					<Tool
-					Name="VCCLCompilerTool"
-					CompileAs="1"
+						Name="VCCLCompilerTool"
+						CompileAs="1"
 					/>
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="C:\tortoiseCVS\TortoiseCVS\src\TortoisePlink\LoginDialog.cpp">
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHDES.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHDH.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHDSS.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHMD5.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHPUBK.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHRAND.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHRSA.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHSH512.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHSHA.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\SSHZLIB.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\TELNET.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\TREE234.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\VERSION.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\WILDCARD.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\WINDEFS.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\WINMISC.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\WINNET.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\WINSTORE.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="$(SolutionDir)..\..\src\TortoisePlink\X11FWD.C"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
 			</File>
 		</Filter>
+		<File
+			RelativePath="$(SolutionDir)..\..\src\TortoisePlink\PLINK.RC"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
