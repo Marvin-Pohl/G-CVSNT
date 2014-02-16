@@ -76,7 +76,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 1 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
 
 /*
 **  Originally written by Steven M. Bellovin <smb@research.att.com> while
@@ -163,7 +163,7 @@ static time_t   yyRelSeconds;
 
 
 /* Line 189 of yacc.c  */
-#line 167 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/bison_getdate.cpp"
+#line 167 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/Utils/bison_getdate.cpp"
 
 /* Enabling traces.  */
 #ifndef YYDEBUG
@@ -213,7 +213,7 @@ typedef union YYSTYPE
 {
 
 /* Line 214 of yacc.c  */
-#line 86 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 86 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
 
     time_t              Number;
     enum _MERIDIAN      Meridian;
@@ -221,7 +221,7 @@ typedef union YYSTYPE
 
 
 /* Line 214 of yacc.c  */
-#line 225 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/bison_getdate.cpp"
+#line 225 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/Utils/bison_getdate.cpp"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */
@@ -233,7 +233,7 @@ typedef union YYSTYPE
 
 
 /* Line 264 of yacc.c  */
-#line 237 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/bison_getdate.cpp"
+#line 237 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/Utils/bison_getdate.cpp"
 
 #ifdef short
 # undef short
@@ -1469,7 +1469,7 @@ yyreduce:
         case 4:
 
 /* Line 1455 of yacc.c  */
-#line 104 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 104 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHaveTime++;
         }
@@ -1478,7 +1478,7 @@ yyreduce:
   case 5:
 
 /* Line 1455 of yacc.c  */
-#line 107 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 107 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHaveZone++;
         }
@@ -1487,7 +1487,7 @@ yyreduce:
   case 6:
 
 /* Line 1455 of yacc.c  */
-#line 110 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 110 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHaveDate++;
         }
@@ -1496,7 +1496,7 @@ yyreduce:
   case 7:
 
 /* Line 1455 of yacc.c  */
-#line 113 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 113 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHaveDay++;
         }
@@ -1505,7 +1505,7 @@ yyreduce:
   case 8:
 
 /* Line 1455 of yacc.c  */
-#line 116 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 116 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHaveRel++;
         }
@@ -1514,7 +1514,7 @@ yyreduce:
   case 10:
 
 /* Line 1455 of yacc.c  */
-#line 122 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 122 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHour = (yyvsp[(1) - (2)].Number);
             yyMinutes = 0;
@@ -1526,7 +1526,7 @@ yyreduce:
   case 11:
 
 /* Line 1455 of yacc.c  */
-#line 128 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 128 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHour = (yyvsp[(1) - (4)].Number);
             yyMinutes = (yyvsp[(3) - (4)].Number);
@@ -1538,7 +1538,7 @@ yyreduce:
   case 12:
 
 /* Line 1455 of yacc.c  */
-#line 134 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 134 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHour = (yyvsp[(1) - (4)].Number);
             yyMinutes = (yyvsp[(3) - (4)].Number);
@@ -1551,7 +1551,7 @@ yyreduce:
   case 13:
 
 /* Line 1455 of yacc.c  */
-#line 141 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 141 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHour = (yyvsp[(1) - (6)].Number);
             yyMinutes = (yyvsp[(3) - (6)].Number);
@@ -1563,7 +1563,7 @@ yyreduce:
   case 14:
 
 /* Line 1455 of yacc.c  */
-#line 147 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 147 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyHour = (yyvsp[(1) - (6)].Number);
             yyMinutes = (yyvsp[(3) - (6)].Number);
@@ -1577,7 +1577,7 @@ yyreduce:
   case 15:
 
 /* Line 1455 of yacc.c  */
-#line 157 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 157 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyTimezone = (yyvsp[(1) - (1)].Number);
             yyDSTmode = DSToff;
@@ -1587,7 +1587,7 @@ yyreduce:
   case 16:
 
 /* Line 1455 of yacc.c  */
-#line 161 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 161 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyTimezone = (yyvsp[(1) - (1)].Number);
             yyDSTmode = DSTon;
@@ -1597,7 +1597,7 @@ yyreduce:
   case 17:
 
 /* Line 1455 of yacc.c  */
-#line 166 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 166 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyTimezone = (yyvsp[(1) - (2)].Number);
             yyDSTmode = DSTon;
@@ -1607,7 +1607,7 @@ yyreduce:
   case 18:
 
 /* Line 1455 of yacc.c  */
-#line 172 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 172 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyDayOrdinal = 1;
             yyDayNumber = (yyvsp[(1) - (1)].Number);
@@ -1617,7 +1617,7 @@ yyreduce:
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 176 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 176 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyDayOrdinal = 1;
             yyDayNumber = (yyvsp[(1) - (2)].Number);
@@ -1627,7 +1627,7 @@ yyreduce:
   case 20:
 
 /* Line 1455 of yacc.c  */
-#line 180 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 180 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyDayOrdinal = (yyvsp[(1) - (2)].Number);
             yyDayNumber = (yyvsp[(2) - (2)].Number);
@@ -1637,7 +1637,7 @@ yyreduce:
   case 21:
 
 /* Line 1455 of yacc.c  */
-#line 186 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 186 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyMonth = (yyvsp[(1) - (3)].Number);
             yyDay = (yyvsp[(3) - (3)].Number);
@@ -1647,7 +1647,7 @@ yyreduce:
   case 22:
 
 /* Line 1455 of yacc.c  */
-#line 190 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 190 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             if ((yyvsp[(1) - (5)].Number) >= 100) {
                 yyYear = (yyvsp[(1) - (5)].Number);
@@ -1664,7 +1664,7 @@ yyreduce:
   case 23:
 
 /* Line 1455 of yacc.c  */
-#line 201 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 201 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             /* ISO 8601 format.  yyyy-mm-dd.  */
             yyYear = (yyvsp[(1) - (3)].Number);
@@ -1676,7 +1676,7 @@ yyreduce:
   case 24:
 
 /* Line 1455 of yacc.c  */
-#line 207 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 207 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             /* e.g. 17-JUN-1992.  */
             yyDay = (yyvsp[(1) - (3)].Number);
@@ -1688,7 +1688,7 @@ yyreduce:
   case 25:
 
 /* Line 1455 of yacc.c  */
-#line 213 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 213 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyMonth = (yyvsp[(1) - (2)].Number);
             yyDay = (yyvsp[(2) - (2)].Number);
@@ -1698,7 +1698,7 @@ yyreduce:
   case 26:
 
 /* Line 1455 of yacc.c  */
-#line 217 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 217 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyMonth = (yyvsp[(1) - (4)].Number);
             yyDay = (yyvsp[(2) - (4)].Number);
@@ -1709,7 +1709,7 @@ yyreduce:
   case 27:
 
 /* Line 1455 of yacc.c  */
-#line 222 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 222 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyMonth = (yyvsp[(2) - (2)].Number);
             yyDay = (yyvsp[(1) - (2)].Number);
@@ -1719,7 +1719,7 @@ yyreduce:
   case 28:
 
 /* Line 1455 of yacc.c  */
-#line 226 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 226 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyMonth = (yyvsp[(2) - (3)].Number);
             yyDay = (yyvsp[(1) - (3)].Number);
@@ -1730,7 +1730,7 @@ yyreduce:
   case 29:
 
 /* Line 1455 of yacc.c  */
-#line 233 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 233 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds = -yyRelSeconds;
             yyRelMonth = -yyRelMonth;
@@ -1740,7 +1740,7 @@ yyreduce:
   case 31:
 
 /* Line 1455 of yacc.c  */
-#line 240 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 240 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds += (yyvsp[(1) - (2)].Number) * (yyvsp[(2) - (2)].Number) * 60L;
         }
@@ -1749,7 +1749,7 @@ yyreduce:
   case 32:
 
 /* Line 1455 of yacc.c  */
-#line 243 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 243 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds += (yyvsp[(1) - (2)].Number) * (yyvsp[(2) - (2)].Number) * 60L;
         }
@@ -1758,7 +1758,7 @@ yyreduce:
   case 33:
 
 /* Line 1455 of yacc.c  */
-#line 246 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 246 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds += (yyvsp[(1) - (1)].Number) * 60L;
         }
@@ -1767,7 +1767,7 @@ yyreduce:
   case 34:
 
 /* Line 1455 of yacc.c  */
-#line 249 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 249 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds += (yyvsp[(1) - (2)].Number);
         }
@@ -1776,7 +1776,7 @@ yyreduce:
   case 35:
 
 /* Line 1455 of yacc.c  */
-#line 252 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 252 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds += (yyvsp[(1) - (2)].Number);
         }
@@ -1785,7 +1785,7 @@ yyreduce:
   case 36:
 
 /* Line 1455 of yacc.c  */
-#line 255 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 255 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelSeconds++;
         }
@@ -1794,7 +1794,7 @@ yyreduce:
   case 37:
 
 /* Line 1455 of yacc.c  */
-#line 258 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 258 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelMonth += (yyvsp[(1) - (2)].Number) * (yyvsp[(2) - (2)].Number);
         }
@@ -1803,7 +1803,7 @@ yyreduce:
   case 38:
 
 /* Line 1455 of yacc.c  */
-#line 261 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 261 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelMonth += (yyvsp[(1) - (2)].Number) * (yyvsp[(2) - (2)].Number);
         }
@@ -1812,7 +1812,7 @@ yyreduce:
   case 39:
 
 /* Line 1455 of yacc.c  */
-#line 264 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 264 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             yyRelMonth += (yyvsp[(1) - (1)].Number);
         }
@@ -1821,7 +1821,7 @@ yyreduce:
   case 40:
 
 /* Line 1455 of yacc.c  */
-#line 269 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 269 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             if (yyHaveTime && yyHaveDate && !yyHaveRel)
                 yyYear = (yyvsp[(1) - (1)].Number);
@@ -1852,7 +1852,7 @@ yyreduce:
   case 41:
 
 /* Line 1455 of yacc.c  */
-#line 296 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 296 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             (yyval.Meridian) = MER24;
         }
@@ -1861,7 +1861,7 @@ yyreduce:
   case 42:
 
 /* Line 1455 of yacc.c  */
-#line 299 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 299 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
     {
             (yyval.Meridian) = (yyvsp[(1) - (1)].Meridian);
         }
@@ -1870,7 +1870,7 @@ yyreduce:
 
 
 /* Line 1455 of yacc.c  */
-#line 1874 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/bison_getdate.cpp"
+#line 1874 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/Utils/bison_getdate.cpp"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -2082,7 +2082,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 304 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 304 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
 
 
 /* Month and day table. */

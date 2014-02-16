@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage: setresourceversion resfile dotversion extra
-shopt -s igncr #
+#shopt -s igncr #
 RESFILE=$1
 DOTVERSION=$2
 EXTRA=$3

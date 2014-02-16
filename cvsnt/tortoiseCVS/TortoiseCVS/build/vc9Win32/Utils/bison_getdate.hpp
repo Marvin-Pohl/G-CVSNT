@@ -62,7 +62,7 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 86 "C:/tortoiseCVS/TortoiseCVS/src/Utils/getdate.y"
+#line 86 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/Utils/getdate.y"
 
     time_t              Number;
     enum _MERIDIAN      Meridian;
@@ -70,7 +70,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 74 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/Utils/bison_getdate.hpp"
+#line 74 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/Utils/bison_getdate.hpp"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

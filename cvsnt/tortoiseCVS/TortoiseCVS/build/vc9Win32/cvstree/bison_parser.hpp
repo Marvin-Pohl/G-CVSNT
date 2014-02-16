@@ -78,14 +78,14 @@ typedef union YYSTYPE
 {
 
 /* Line 1676 of yacc.c  */
-#line 59 "C:/tortoiseCVS/TortoiseCVS/src/cvstree/parser.yy"
+#line 59 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../src/cvstree/parser.yy"
 
    int lval;
 
 
 
 /* Line 1676 of yacc.c  */
-#line 89 "C:/tortoiseCVS/TortoiseCVS/build/vc9Win32/cvstree/bison_parser.hpp"
+#line 89 "C:\\Users\\Marvin\\Git\\G-CVSNT\\cvsnt\\tortoiseCVS\\TortoiseCVS\\build\\vc9Win32\\../../build/vc9Win32/cvstree/bison_parser.hpp"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

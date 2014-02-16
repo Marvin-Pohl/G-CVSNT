@@ -246,8 +246,8 @@ function build_vc90()
     cd ..
 
     # First update the project files
-    vc90_build ZERO_CHECK $RELEASE_TYPE Win32
-    vc90_build ZERO_CHECK $RELEASE_TYPE x64
+    #vc90_build ZERO_CHECK $RELEASE_TYPE Win32
+    #vc90_build ZERO_CHECK $RELEASE_TYPE x64
 
     # Then the actual build
     vc90_build TortoiseAct $RELEASE_TYPE Win32

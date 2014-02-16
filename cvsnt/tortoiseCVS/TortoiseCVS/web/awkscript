@@ -1,0 +1,16 @@
+{
+   if ($0 ~ /^Changes .+/) 
+   {
+      if (!done)
+      {
+         printf("Changes for 1.12.7 (16 Feb 2014):\n--"); 
+         done = 1
+      }
+      else
+         print
+   }
+   else
+   {
+      print
+   }
+}
