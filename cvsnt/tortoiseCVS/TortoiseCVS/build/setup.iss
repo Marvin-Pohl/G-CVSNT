@@ -3,7 +3,7 @@
 #define TORTOISESHELL_PATH "vc9Win32\TortoiseShell\Release\TortoiseShell.dll"
 #define TORTOISEPLINK_PATH "vc9Win32\TortoisePlink\Release\TortoisePlink.exe"
 #define POSTINST_PATH "vc9Win32\PostInst\Release\PostInst.exe"
-#define TORTOISEVERSIONNUMERIC "1.12.7.10"
+#define TORTOISEVERSIONNUMERIC "1.12.7.11"
 #define TORTOISESHELL64_PATH "vc9x64\TortoiseShell\Release\TortoiseShell.dll"
 #define TORTOISESETUPHELPER_PATH "vc9Win32\TortoiseSetupHelper\Release\TortoiseSetupHelper.exe"
 #define TORTOISESETUPHELPER64_PATH "vc9x64\TortoiseSetupHelper\Release\TortoiseSetupHelper.exe"
